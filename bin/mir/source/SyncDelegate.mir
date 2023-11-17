@@ -1,0 +1,580 @@
+[ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc"; @line = 1; ]
+using Toybox.Application;
+[ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc"; @line = 2; ]
+using Toybox.Communications;
+[ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc"; @line = 3; ]
+using Toybox.Media;
+[ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc"; @line = 6; ]
+class SyncDelegate extends Media.SyncDelegate{
+    [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc"; @line = 6; ]
+    <init> {
+    }
+    [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc"; @line = 6; ]
+    static
+    <init> {
+    }
+    [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc"; @line = 9; @position = 16; ]
+    private
+    var mSyncList;
+    [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc"; @line = 11; @position = 16; ]
+    private
+    var mDeleteList;
+    [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc"; @line = 13; @position = 16; ]
+    private
+    var mTotalSongsToSync;
+    [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc"; @line = 15; @position = 16; ]
+    private
+    var mSongsSynced;
+    [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc"; @line = 18; ]
+    function initialize() as Void {
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_18_26_start:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 19 8 ]
+        %tmp.2 = getv ? :SyncDelegate;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 22 8 ]
+        [ "_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_18_26_start" "_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_18_26_stop" ]
+        %app.1 = local;
+        %tmp.4 = getm $.Toybox.Application;
+        %tmp.5 = getv function %tmp.4 :getApp;
+        %tmp.6 = invoke %tmp.4 %tmp.5();
+        lputv %app.1 %tmp.6;
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 23 8 ]
+        %tmp.7 = lgetv %app.1;
+        %tmp.8 = getv function %tmp.7 :getProperty;
+        %tmp.10 = getv ? :Properties;
+        %tmp.11 = getv %tmp.10 :SYNC_LIST;
+        %tmp.12 = invoke %tmp.7 %tmp.8(%tmp.11);
+        putv self :mSyncList %tmp.12;
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 24 8 ]
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_24_8_if_stmt:
+        %tmp.14 = getv ? :mSyncList;
+        %tmp.15 = null;
+        %tmp.16 = eq %tmp.14 %tmp.15;
+        bf %tmp.16 @_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_24_8_if_end;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_24_8_if_true:
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_24_31_start:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 25 12 ]
+        %tmp.17 = newd 0;
+        putv self :mSyncList %tmp.17;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_24_31_stop:
+        goto @_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_24_8_if_end;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_24_8_if_end:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 29 8 ]
+        %tmp.18 = lgetv %app.1;
+        %tmp.19 = getv function %tmp.18 :getProperty;
+        %tmp.21 = getv ? :Properties;
+        %tmp.22 = getv %tmp.21 :DELETE_LIST;
+        %tmp.23 = invoke %tmp.18 %tmp.19(%tmp.22);
+        putv self :mDeleteList %tmp.23;
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 30 8 ]
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_30_8_if_stmt:
+        %tmp.25 = getv ? :mDeleteList;
+        %tmp.26 = null;
+        %tmp.27 = eq %tmp.25 %tmp.26;
+        bf %tmp.27 @_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_30_8_if_end;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_30_8_if_true:
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_30_33_start:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 31 12 ]
+        %tmp.28 = newa 0;
+        putv self :mDeleteList %tmp.28;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_30_33_stop:
+        goto @_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_30_8_if_end;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_30_8_if_end:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 34 8 ]
+        %tmp.29 = 0;
+        putv self :mSongsSynced %tmp.29;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_18_26_stop:
+    }
+    [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc"; @line = 38; ]
+    function onStartSync() {
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_38_27_start:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 41 8 ]
+        %tmp.2 = getv ? :mSyncList;
+        %tmp.3 = getv function %tmp.2 :size;
+        %tmp.4 = invoke %tmp.2 %tmp.3();
+        %tmp.6 = getv ? :mDeleteList;
+        %tmp.7 = getv function %tmp.6 :size;
+        %tmp.8 = invoke %tmp.6 %tmp.7();
+        %tmp.9 = add %tmp.4 %tmp.8;
+        putv self :mTotalSongsToSync %tmp.9;
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 44 8 ]
+        %tmp.10 = self;
+        %tmp.11 = getv function %tmp.10 :deleteSongs;
+        invoke %tmp.10 %tmp.11();
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 47 8 ]
+        %tmp.12 = self;
+        %tmp.13 = getv function %tmp.12 :syncNextSong;
+        invoke %tmp.12 %tmp.13();
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_38_27_stop:
+    }
+    [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc"; @line = 51; ]
+    function isSyncNeeded() {
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_51_28_start:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 52 8 ]
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_52_16_begin:
+        %tmp.2 = getv ? :mSyncList;
+        %tmp.3 = getv function %tmp.2 :size;
+        %tmp.4 = invoke %tmp.2 %tmp.3();
+        %tmp.5 = 0;
+        %tmp.6 = ne %tmp.4 %tmp.5;
+        %tmp.7 = dup %tmp.6;
+        bt %tmp.7 @_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_52_43_end;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_52_43_false:
+        %tmp.9 = getv ? :mDeleteList;
+        %tmp.10 = getv function %tmp.9 :size;
+        %tmp.11 = invoke %tmp.9 %tmp.10();
+        %tmp.12 = 0;
+        %tmp.13 = ne %tmp.11 %tmp.12;
+        %tmp.14 = or %tmp.6 %tmp.13;
+        push %tmp.14;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_52_43_end:
+        %tmp.15 = phi [%tmp.7 @_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_52_16_begin] [%tmp.14 @_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_52_43_false] [%tmp.15 @_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_52_43_end];
+        ret %tmp.15;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_51_28_stop:
+    }
+    [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc"; @line = 56; ]
+    function deleteSongs() {
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_56_27_start:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 57 8 ]
+        [ "_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_56_27_start" "_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_56_27_stop" ]
+        %app.1 = local;
+        %tmp.1 = getm $.Toybox.Application;
+        %tmp.2 = getv function %tmp.1 :getApp;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %app.1 %tmp.3;
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 60 8 ]
+        [ "_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_56_27_start" "_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_56_27_stop" ]
+        %songs.2 = local;
+        %tmp.4 = lgetv %app.1;
+        %tmp.5 = getv function %tmp.4 :getProperty;
+        %tmp.7 = getv ? :Properties;
+        %tmp.8 = getv %tmp.7 :SONGS;
+        %tmp.9 = invoke %tmp.4 %tmp.5(%tmp.8);
+        lputv %songs.2 %tmp.9;
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 62 8 ]
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_62_8_if_stmt:
+        %tmp.11 = lgetv %songs.2;
+        %tmp.12 = null;
+        %tmp.13 = eq %tmp.11 %tmp.12;
+        bf %tmp.13 @_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_62_8_if_end;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_62_8_if_true:
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_62_27_start:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 63 12 ]
+        ret ?;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_62_27_stop:
+        goto @_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_62_8_if_end;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_62_8_if_end:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 67 8 ]
+        for @_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_67_8_for_test @_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_67_8_for_incr @_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_67_8_for_end;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_67_8_for_init:
+        [ "_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_67_8_for_begin" "_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_67_8_for_end" ]
+        %idx.3 = local;
+        %tmp.14 = 0;
+        lputv %idx.3 %tmp.14;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_67_8_for_test:
+        %tmp.16 = lgetv %idx.3;
+        %tmp.18 = getv ? :mDeleteList;
+        %tmp.19 = getv function %tmp.18 :size;
+        %tmp.20 = invoke %tmp.18 %tmp.19();
+        %tmp.21 = lt %tmp.16 %tmp.20;
+        bf %tmp.21 @_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_67_8_for_end;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_67_8_for_begin:
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_67_59_start:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 68 12 ]
+        %tmp.22 = getm $.Toybox.Media;
+        %tmp.23 = getv function %tmp.22 :deleteCachedItem;
+        %tmp.26 = getm $.Toybox.Media;
+        %tmp.27 = getv function ? %tmp.26 :ContentRef;
+        %tmp.29 = getv ? :mDeleteList;
+        %tmp.31 = lgetv %idx.3;
+        %tmp.32 = agetv %tmp.29 %tmp.31;
+        %tmp.33 = getm $.Toybox.Media;
+        %tmp.34 = getv %tmp.33 :CONTENT_TYPE_AUDIO;
+        %tmp.24 = newc %tmp.27 (%tmp.32, %tmp.34);
+        invoke %tmp.22 %tmp.23(%tmp.24);
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 70 12 ]
+        %tmp.35 = lgetv %songs.2;
+        %tmp.36 = getv function %tmp.35 :remove;
+        %tmp.38 = getv ? :mDeleteList;
+        %tmp.40 = lgetv %idx.3;
+        %tmp.41 = agetv %tmp.38 %tmp.40;
+        invoke %tmp.35 %tmp.36(%tmp.41);
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 71 12 ]
+        %tmp.42 = lgetv %app.1;
+        %tmp.43 = getv function %tmp.42 :setProperty;
+        %tmp.45 = getv ? :Properties;
+        %tmp.46 = getv %tmp.45 :SONGS;
+        %tmp.48 = lgetv %songs.2;
+        invoke %tmp.42 %tmp.43(%tmp.46, %tmp.48);
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 74 12 ]
+        %tmp.49 = self;
+        %tmp.50 = getv function %tmp.49 :onSongSynced;
+        invoke %tmp.49 %tmp.50();
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_67_59_stop:
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_67_8_for_incr:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 67 ]
+        %tmp.53 = lgetv %idx.3;
+        %tmp.54 = add %tmp.53 1;
+        lputv %idx.3 %tmp.54;
+        goto @_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_67_8_for_test;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_67_8_for_end:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 78 8 ]
+        %tmp.55 = lgetv %app.1;
+        %tmp.56 = getv function %tmp.55 :deleteProperty;
+        %tmp.58 = getv ? :Properties;
+        %tmp.59 = getv %tmp.58 :DELETE_LIST;
+        invoke %tmp.55 %tmp.56(%tmp.59);
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_56_27_stop:
+    }
+    [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc"; @line = 82; ]
+    function syncNextSong() {
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_82_28_start:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 83 8 ]
+        [ "_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_82_28_start" "_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_82_28_stop" ]
+        %ids.1 = local;
+        %tmp.2 = getv ? :mSyncList;
+        %tmp.3 = getv function %tmp.2 :keys;
+        %tmp.4 = invoke %tmp.2 %tmp.3();
+        lputv %ids.1 %tmp.4;
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 86 8 ]
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_86_8_if_stmt:
+        %tmp.5 = lgetv %ids.1;
+        %tmp.6 = getv function %tmp.5 :size;
+        %tmp.7 = invoke %tmp.5 %tmp.6();
+        %tmp.8 = 0;
+        %tmp.9 = eq %tmp.7 %tmp.8;
+        bf %tmp.9 @_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_86_8_if_end;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_86_8_if_true:
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_86_29_start:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 87 12 ]
+        %tmp.10 = getm $.Toybox.Media;
+        %tmp.11 = getv function %tmp.10 :notifySyncComplete;
+        %tmp.12 = null;
+        invoke %tmp.10 %tmp.11(%tmp.12);
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 88 12 ]
+        ret ?;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_86_29_stop:
+        goto @_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_86_8_if_end;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_86_8_if_end:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 92 8 ]
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_92_8_if_stmt:
+        %tmp.14 = getv ? :mSyncList;
+        %tmp.16 = lgetv %ids.1;
+        %tmp.17 = 0;
+        %tmp.18 = agetv %tmp.16 %tmp.17;
+        %tmp.19 = agetv %tmp.14 %tmp.18;
+        bf %tmp.19 @_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_92_8_if_end;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_92_8_if_true:
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_92_31_start:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 93 12 ]
+        [ "_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_92_31_start" "_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_92_31_stop" ]
+        %songInfo.2 = local;
+        %tmp.21 = getv ? :mSyncList;
+        %tmp.23 = lgetv %ids.1;
+        %tmp.24 = 0;
+        %tmp.25 = agetv %tmp.23 %tmp.24;
+        %tmp.26 = agetv %tmp.21 %tmp.25;
+        lputv %songInfo.2 %tmp.26;
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 94 12 ]
+        [ "_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_92_31_start" "_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_92_31_stop" ]
+        %context.3 = local;
+        %tmp.27 = newd 3;
+        %tmp.29 = getv ? :SongInfo;
+        %tmp.30 = getv %tmp.29 :CAN_SKIP;
+        %tmp.32 = lgetv %songInfo.2;
+        %tmp.34 = getv ? :SongInfo;
+        %tmp.35 = getv %tmp.34 :CAN_SKIP;
+        %tmp.36 = agetv %tmp.32 %tmp.35;
+        %tmp.37 = dup %tmp.27;
+        %tmp.38 = aputv %tmp.37 %tmp.30 %tmp.36;
+        %tmp.40 = getv ? :SongInfo;
+        %tmp.41 = getv %tmp.40 :ID;
+        %tmp.43 = lgetv %ids.1;
+        %tmp.44 = 0;
+        %tmp.45 = agetv %tmp.43 %tmp.44;
+        %tmp.46 = dup %tmp.38;
+        %tmp.47 = aputv %tmp.46 %tmp.41 %tmp.45;
+        %tmp.49 = getv ? :SongInfo;
+        %tmp.50 = getv %tmp.49 :URL;
+        %tmp.52 = lgetv %songInfo.2;
+        %tmp.54 = getv ? :SongInfo;
+        %tmp.55 = getv %tmp.54 :URL;
+        %tmp.56 = agetv %tmp.52 %tmp.55;
+        %tmp.57 = dup %tmp.47;
+        %tmp.58 = aputv %tmp.57 %tmp.50 %tmp.56;
+        lputv %context.3 %tmp.58;
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 97 12 ]
+        [ "_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_92_31_start" "_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_92_31_stop" ]
+        %options.4 = local;
+        %tmp.59 = newd 3;
+        %tmp.61 = const :method;
+        %tmp.62 = getm $.Toybox.Communications;
+        %tmp.63 = getv %tmp.62 :HTTP_REQUEST_METHOD_GET;
+        %tmp.64 = dup %tmp.59;
+        %tmp.65 = aputv %tmp.64 %tmp.61 %tmp.63;
+        %tmp.67 = const :responseType;
+        %tmp.68 = getm $.Toybox.Communications;
+        %tmp.69 = getv %tmp.68 :HTTP_RESPONSE_CONTENT_TYPE_AUDIO;
+        %tmp.70 = dup %tmp.65;
+        %tmp.71 = aputv %tmp.70 %tmp.67 %tmp.69;
+        %tmp.73 = const :mediaEncoding;
+        %tmp.74 = self;
+        %tmp.75 = getv function %tmp.74 :typeStringToEncoding;
+        %tmp.77 = lgetv %songInfo.2;
+        %tmp.79 = getv ? :SongInfo;
+        %tmp.80 = getv %tmp.79 :TYPE;
+        %tmp.81 = agetv %tmp.77 %tmp.80;
+        %tmp.82 = invoke %tmp.74 %tmp.75(%tmp.81);
+        %tmp.83 = dup %tmp.71;
+        %tmp.84 = aputv %tmp.83 %tmp.73 %tmp.82;
+        lputv %options.4 %tmp.84;
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 101 12 ]
+        [ "_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_92_31_start" "_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_92_31_stop" ]
+        %delegate.5 = local;
+        %tmp.88 = getv ? :RequestDelegate;
+        %tmp.89 = self;
+        %tmp.90 = getv function %tmp.89 :method;
+        %tmp.92 = const :onSongDownloaded;
+        %tmp.93 = invoke %tmp.89 %tmp.90(%tmp.92);
+        %tmp.95 = lgetv %context.3;
+        %tmp.85 = newc %tmp.88 (%tmp.93, %tmp.95);
+        lputv %delegate.5 %tmp.85;
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 102 12 ]
+        %tmp.96 = lgetv %delegate.5;
+        %tmp.97 = getv function %tmp.96 :makeWebRequest;
+        %tmp.99 = getv ? :mSyncList;
+        %tmp.101 = lgetv %ids.1;
+        %tmp.102 = 0;
+        %tmp.103 = agetv %tmp.101 %tmp.102;
+        %tmp.104 = agetv %tmp.99 %tmp.103;
+        %tmp.106 = getv ? :SongInfo;
+        %tmp.107 = getv %tmp.106 :URL;
+        %tmp.108 = agetv %tmp.104 %tmp.107;
+        %tmp.109 = null;
+        %tmp.111 = lgetv %options.4;
+        invoke %tmp.96 %tmp.97(%tmp.108, %tmp.109, %tmp.111);
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_92_31_stop:
+        goto @_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_92_8_if_end;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_92_8_if_end:
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_82_28_stop:
+    }
+    [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc"; @line = 106; ]
+    function typeStringToEncoding(type) {
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_106_40_start:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 107 8 ]
+        [ "_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_106_40_start" "_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_106_40_stop" ]
+        %encoding.1 = local;
+        %tmp.1 = getm $.Toybox.Media;
+        %tmp.2 = getv %tmp.1 :ENCODING_INVALID;
+        lputv %encoding.1 %tmp.2;
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 109 8 ]
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_109_8_if_stmt:
+        %tmp.3 = lgetv %type;
+        %tmp.4 = getv function %tmp.3 :equals;
+        %tmp.5 = "mp3";
+        %tmp.6 = invoke %tmp.3 %tmp.4(%tmp.5);
+        bf %tmp.6 @_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_109_8_if_false;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_109_8_if_true:
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_109_32_start:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 110 16 ]
+        %tmp.7 = getm $.Toybox.Media;
+        %tmp.8 = getv %tmp.7 :ENCODING_MP3;
+        lputv %encoding.1 %tmp.8;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_109_32_stop:
+        goto @_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_109_8_if_end;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_109_8_if_false:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 111 15 ]
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_111_15_if_stmt:
+        %tmp.9 = lgetv %type;
+        %tmp.10 = getv function %tmp.9 :equals;
+        %tmp.11 = "m4a";
+        %tmp.12 = invoke %tmp.9 %tmp.10(%tmp.11);
+        bf %tmp.12 @_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_111_15_if_false;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_111_15_if_true:
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_111_39_start:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 112 16 ]
+        %tmp.13 = getm $.Toybox.Media;
+        %tmp.14 = getv %tmp.13 :ENCODING_M4A;
+        lputv %encoding.1 %tmp.14;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_111_39_stop:
+        goto @_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_111_15_if_end;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_111_15_if_false:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 113 15 ]
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_113_15_if_stmt:
+        %tmp.15 = lgetv %type;
+        %tmp.16 = getv function %tmp.15 :equals;
+        %tmp.17 = "wav";
+        %tmp.18 = invoke %tmp.15 %tmp.16(%tmp.17);
+        bf %tmp.18 @_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_113_15_if_false;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_113_15_if_true:
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_113_39_start:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 114 16 ]
+        %tmp.19 = getm $.Toybox.Media;
+        %tmp.20 = getv %tmp.19 :ENCODING_WAV;
+        lputv %encoding.1 %tmp.20;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_113_39_stop:
+        goto @_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_113_15_if_end;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_113_15_if_false:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 115 15 ]
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_115_15_if_stmt:
+        %tmp.21 = lgetv %type;
+        %tmp.22 = getv function %tmp.21 :equals;
+        %tmp.23 = "adts";
+        %tmp.24 = invoke %tmp.21 %tmp.22(%tmp.23);
+        bf %tmp.24 @_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_115_15_if_end;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_115_15_if_true:
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_115_40_start:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 116 16 ]
+        %tmp.25 = getm $.Toybox.Media;
+        %tmp.26 = getv %tmp.25 :ENCODING_ADTS;
+        lputv %encoding.1 %tmp.26;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_115_40_stop:
+        goto @_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_115_15_if_end;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_115_15_if_end:
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_113_15_if_end:
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_111_15_if_end:
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_109_8_if_end:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 119 8 ]
+        %tmp.28 = lgetv %encoding.1;
+        ret %tmp.28;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_106_40_stop:
+    }
+    [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc"; @line = 123; ]
+    function onSongDownloaded(responseCode, data, context) {
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_123_59_start:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 124 8 ]
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_124_8_if_stmt:
+        %tmp.2 = lgetv %responseCode;
+        %tmp.3 = 200;
+        %tmp.4 = eq %tmp.2 %tmp.3;
+        bf %tmp.4 @_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_124_8_if_false;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_124_8_if_true:
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_124_33_start:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 125 12 ]
+        [ "_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_124_33_start" "_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_124_33_stop" ]
+        %app.1 = local;
+        %tmp.5 = getm $.Toybox.Application;
+        %tmp.6 = getv function %tmp.5 :getApp;
+        %tmp.7 = invoke %tmp.5 %tmp.6();
+        lputv %app.1 %tmp.7;
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 128 12 ]
+        %tmp.9 = getv ? :mSyncList;
+        %tmp.10 = getv function %tmp.9 :remove;
+        %tmp.12 = lgetv %context;
+        %tmp.14 = getv ? :SongInfo;
+        %tmp.15 = getv %tmp.14 :ID;
+        %tmp.16 = agetv %tmp.12 %tmp.15;
+        invoke %tmp.9 %tmp.10(%tmp.16);
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 129 12 ]
+        %tmp.17 = lgetv %app.1;
+        %tmp.18 = getv function %tmp.17 :setProperty;
+        %tmp.20 = getv ? :Properties;
+        %tmp.21 = getv %tmp.20 :SYNC_LIST;
+        %tmp.23 = getv ? :mSyncList;
+        invoke %tmp.17 %tmp.18(%tmp.21, %tmp.23);
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 132 12 ]
+        [ "_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_124_33_start" "_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_124_33_stop" ]
+        %songs.2 = local;
+        %tmp.24 = lgetv %app.1;
+        %tmp.25 = getv function %tmp.24 :getProperty;
+        %tmp.27 = getv ? :Properties;
+        %tmp.28 = getv %tmp.27 :SONGS;
+        %tmp.29 = invoke %tmp.24 %tmp.25(%tmp.28);
+        lputv %songs.2 %tmp.29;
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 133 12 ]
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_133_12_if_stmt:
+        %tmp.31 = lgetv %songs.2;
+        %tmp.32 = null;
+        %tmp.33 = eq %tmp.31 %tmp.32;
+        bf %tmp.33 @_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_133_12_if_end;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_133_12_if_true:
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_133_31_start:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 134 16 ]
+        %tmp.34 = newd 0;
+        lputv %songs.2 %tmp.34;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_133_31_stop:
+        goto @_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_133_12_if_end;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_133_12_if_end:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 136 12 ]
+        %tmp.35 = lgetv %context;
+        %tmp.36 = getv function %tmp.35 :remove;
+        %tmp.38 = getv ? :SongInfo;
+        %tmp.39 = getv %tmp.38 :URL;
+        invoke %tmp.35 %tmp.36(%tmp.39);
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 137 12 ]
+        %tmp.40 = lgetv %songs.2;
+        %tmp.42 = lgetv %context;
+        %tmp.43 = lgetv %data;
+        %tmp.44 = getv function %tmp.43 :getId;
+        %tmp.45 = invoke %tmp.43 %tmp.44();
+        aputv %tmp.40 %tmp.45 %tmp.42;
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 138 12 ]
+        %tmp.46 = lgetv %app.1;
+        %tmp.47 = getv function %tmp.46 :setProperty;
+        %tmp.49 = getv ? :Properties;
+        %tmp.50 = getv %tmp.49 :SONGS;
+        %tmp.52 = lgetv %songs.2;
+        invoke %tmp.46 %tmp.47(%tmp.50, %tmp.52);
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 141 12 ]
+        %tmp.53 = self;
+        %tmp.54 = getv function %tmp.53 :onSongSynced;
+        invoke %tmp.53 %tmp.54();
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 144 12 ]
+        %tmp.55 = self;
+        %tmp.56 = getv function %tmp.55 :syncNextSong;
+        invoke %tmp.55 %tmp.56();
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_124_33_stop:
+        goto @_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_124_8_if_end;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_124_8_if_false:
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_145_15_start:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 146 12 ]
+        [ "_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_145_15_start" "_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_145_15_stop" ]
+        %errorString.3 = local;
+        %tmp.57 = "Sync failed with error code: ";
+        %tmp.59 = lgetv %responseCode;
+        %tmp.60 = add %tmp.57 %tmp.59;
+        lputv %errorString.3 %tmp.60;
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 147 12 ]
+        %tmp.61 = getm $.Toybox.Media;
+        %tmp.62 = getv function %tmp.61 :notifySyncComplete;
+        %tmp.64 = lgetv %errorString.3;
+        invoke %tmp.61 %tmp.62(%tmp.64);
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_145_15_stop:
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_124_8_if_end:
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_123_59_stop:
+    }
+    [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc"; @line = 152; ]
+    function onSongSynced() {
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_152_28_start:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 153 8 ]
+        %tmp.3 = getv ? :mSongsSynced;
+        %tmp.4 = add %tmp.3 1;
+        putv self :mSongsSynced dup %tmp.4;
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 155 8 ]
+        [ "_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_152_28_start" "_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_152_28_stop" ]
+        %progress.1 = local;
+        %tmp.6 = getv ? :mSongsSynced;
+        %tmp.8 = getv ? :mTotalSongsToSync;
+        %tmp.9 = getv function %tmp.8 :toFloat;
+        %tmp.10 = invoke %tmp.8 %tmp.9();
+        %tmp.11 = div %tmp.6 %tmp.10;
+        lputv %progress.1 %tmp.11;
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 156 8 ]
+        %tmp.13 = lgetv %progress.1;
+        %tmp.14 = 100;
+        %tmp.15 = mul %tmp.13 %tmp.14;
+        %tmp.16 = getv function %tmp.15 :toNumber;
+        %tmp.17 = invoke %tmp.15 %tmp.16();
+        lputv %progress.1 %tmp.17;
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" 158 8 ]
+        %tmp.18 = getm $.Toybox.Media;
+        %tmp.19 = getv function %tmp.18 :notifySyncProgress;
+        %tmp.21 = lgetv %progress.1;
+        invoke %tmp.18 %tmp.19(%tmp.21);
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_SyncDelegate_mc_152_28_stop:
+    }
+}
+[ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc"; @line = 1; ]
+<init> {
+}

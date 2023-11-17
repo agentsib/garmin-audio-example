@@ -1,0 +1,117 @@
+[ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenuDelegate.mc"; @line = 1; ]
+using Toybox.Media;
+[ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenuDelegate.mc"; @line = 2; ]
+using Toybox.WatchUi;
+[ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenuDelegate.mc"; @line = 5; ]
+class ConfigurePlaybackMenuDelegate extends WatchUi.Menu2InputDelegate{
+    [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenuDelegate.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenuDelegate.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenuDelegate.mc"; @line = 8; ]
+    function initialize() as Void {
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_ConfigurePlaybackMenuDelegate_mc_8_26_start:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenuDelegate.mc" 9 8 ]
+        %tmp.2 = getv ? :Menu2InputDelegate;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_ConfigurePlaybackMenuDelegate_mc_8_26_stop:
+    }
+    [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenuDelegate.mc"; @line = 13; ]
+    function onSelect(item) {
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_ConfigurePlaybackMenuDelegate_mc_13_28_start:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenuDelegate.mc" 14 8 ]
+        [ "_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_ConfigurePlaybackMenuDelegate_mc_13_28_start" "_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_ConfigurePlaybackMenuDelegate_mc_13_28_stop" ]
+        %app.1 = local;
+        %tmp.2 = getv ? :Application;
+        %tmp.3 = getv function %tmp.2 :getApp;
+        %tmp.4 = invoke %tmp.2 %tmp.3();
+        lputv %app.1 %tmp.4;
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenuDelegate.mc" 15 8 ]
+        [ "_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_ConfigurePlaybackMenuDelegate_mc_13_28_start" "_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_ConfigurePlaybackMenuDelegate_mc_13_28_stop" ]
+        %playlist.2 = local;
+        %tmp.5 = lgetv %app.1;
+        %tmp.6 = getv function %tmp.5 :getProperty;
+        %tmp.8 = getv ? :Properties;
+        %tmp.9 = getv %tmp.8 :PLAYLIST;
+        %tmp.10 = invoke %tmp.5 %tmp.6(%tmp.9);
+        lputv %playlist.2 %tmp.10;
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenuDelegate.mc" 17 8 ]
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_ConfigurePlaybackMenuDelegate_mc_17_8_if_stmt:
+        %tmp.12 = lgetv %playlist.2;
+        %tmp.13 = null;
+        %tmp.14 = eq %tmp.12 %tmp.13;
+        bf %tmp.14 @_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_ConfigurePlaybackMenuDelegate_mc_17_8_if_end;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_ConfigurePlaybackMenuDelegate_mc_17_8_if_true:
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_ConfigurePlaybackMenuDelegate_mc_17_30_start:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenuDelegate.mc" 18 12 ]
+        %tmp.15 = newa 0;
+        lputv %playlist.2 %tmp.15;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_ConfigurePlaybackMenuDelegate_mc_17_30_stop:
+        goto @_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_ConfigurePlaybackMenuDelegate_mc_17_8_if_end;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_ConfigurePlaybackMenuDelegate_mc_17_8_if_end:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenuDelegate.mc" 21 8 ]
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_ConfigurePlaybackMenuDelegate_mc_21_8_if_stmt:
+        %tmp.16 = lgetv %item;
+        %tmp.17 = getv function %tmp.16 :isChecked;
+        %tmp.18 = invoke %tmp.16 %tmp.17();
+        bf %tmp.18 @_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_ConfigurePlaybackMenuDelegate_mc_21_8_if_false;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_ConfigurePlaybackMenuDelegate_mc_21_8_if_true:
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_ConfigurePlaybackMenuDelegate_mc_21_30_start:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenuDelegate.mc" 22 12 ]
+        %tmp.19 = lgetv %playlist.2;
+        %tmp.20 = getv function %tmp.19 :add;
+        %tmp.21 = lgetv %item;
+        %tmp.22 = getv function %tmp.21 :getId;
+        %tmp.23 = invoke %tmp.21 %tmp.22();
+        invoke %tmp.19 %tmp.20(%tmp.23);
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_ConfigurePlaybackMenuDelegate_mc_21_30_stop:
+        goto @_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_ConfigurePlaybackMenuDelegate_mc_21_8_if_end;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_ConfigurePlaybackMenuDelegate_mc_21_8_if_false:
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_ConfigurePlaybackMenuDelegate_mc_23_15_start:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenuDelegate.mc" 24 12 ]
+        %tmp.24 = lgetv %playlist.2;
+        %tmp.25 = getv function %tmp.24 :remove;
+        %tmp.26 = lgetv %item;
+        %tmp.27 = getv function %tmp.26 :getId;
+        %tmp.28 = invoke %tmp.26 %tmp.27();
+        invoke %tmp.24 %tmp.25(%tmp.28);
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_ConfigurePlaybackMenuDelegate_mc_23_15_stop:
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_ConfigurePlaybackMenuDelegate_mc_21_8_if_end:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenuDelegate.mc" 27 8 ]
+        %tmp.29 = lgetv %app.1;
+        %tmp.30 = getv function %tmp.29 :setProperty;
+        %tmp.32 = getv ? :Properties;
+        %tmp.33 = getv %tmp.32 :PLAYLIST;
+        %tmp.35 = lgetv %playlist.2;
+        invoke %tmp.29 %tmp.30(%tmp.33, %tmp.35);
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_ConfigurePlaybackMenuDelegate_mc_13_28_stop:
+    }
+    [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenuDelegate.mc"; @line = 31; ]
+    function onDone() {
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_ConfigurePlaybackMenuDelegate_mc_31_22_start:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenuDelegate.mc" 32 8 ]
+        %tmp.1 = getm $.Toybox.Media;
+        %tmp.2 = getv function %tmp.1 :startPlayback;
+        %tmp.3 = null;
+        invoke %tmp.1 %tmp.2(%tmp.3);
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_ConfigurePlaybackMenuDelegate_mc_31_22_stop:
+    }
+    [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenuDelegate.mc"; @line = 36; ]
+    function onBack() {
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_ConfigurePlaybackMenuDelegate_mc_36_22_start:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenuDelegate.mc" 37 8 ]
+        %tmp.1 = getm $.Toybox.WatchUi;
+        %tmp.2 = getv function %tmp.1 :popView;
+        %tmp.3 = getm $.Toybox.WatchUi;
+        %tmp.4 = getv %tmp.3 :SLIDE_IMMEDIATE;
+        invoke %tmp.1 %tmp.2(%tmp.4);
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_ConfigurePlaybackMenuDelegate_mc_36_22_stop:
+    }
+}
+[ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenuDelegate.mc"; @line = 1; ]
+<init> {
+}

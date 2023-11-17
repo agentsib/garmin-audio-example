@@ -1,0 +1,60 @@
+[ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/RequestDelegate.mc"; @line = 1; ]
+using Toybox.Communications;
+[ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/RequestDelegate.mc"; @line = 4; ]
+class RequestDelegate{
+    [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/RequestDelegate.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/RequestDelegate.mc"; @line = 4; ]
+    static
+    <init> {
+    }
+    [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/RequestDelegate.mc"; @line = 6; @position = 15; ]
+    protected
+    var mCallback;
+    [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/RequestDelegate.mc"; @line = 7; @position = 15; ]
+    protected
+    var mContext;
+    [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/RequestDelegate.mc"; @line = 9; ]
+    function initialize(callback, context) as Void {
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_RequestDelegate_mc_9_43_start:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/RequestDelegate.mc" 10 8 ]
+        %tmp.2 = lgetv %callback;
+        putv self :mCallback %tmp.2;
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/RequestDelegate.mc" 11 8 ]
+        %tmp.4 = lgetv %context;
+        putv self :mContext %tmp.4;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_RequestDelegate_mc_9_43_stop:
+    }
+    [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/RequestDelegate.mc"; @line = 15; ]
+    function makeWebRequest(url, params, options) {
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_RequestDelegate_mc_15_50_start:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/RequestDelegate.mc" 16 8 ]
+        %tmp.1 = getm $.Toybox.Communications;
+        %tmp.2 = getv function %tmp.1 :makeWebRequest;
+        %tmp.4 = lgetv %url;
+        %tmp.6 = lgetv %params;
+        %tmp.8 = lgetv %options;
+        %tmp.9 = lgetv %self;
+        %tmp.10 = getv function %tmp.9 :method;
+        %tmp.12 = const :onWebResponse;
+        %tmp.13 = invoke %tmp.9 %tmp.10(%tmp.12);
+        invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6, %tmp.8, %tmp.13);
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_RequestDelegate_mc_15_50_stop:
+    }
+    [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/RequestDelegate.mc"; @line = 20; ]
+    function onWebResponse(code, data) {
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_RequestDelegate_mc_20_39_start:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/RequestDelegate.mc" 21 8 ]
+        %tmp.2 = getv ? :mCallback;
+        %tmp.3 = getv function %tmp.2 :invoke;
+        %tmp.5 = lgetv %code;
+        %tmp.7 = lgetv %data;
+        %tmp.9 = getv ? :mContext;
+        invoke %tmp.2 %tmp.3(%tmp.5, %tmp.7, %tmp.9);
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_RequestDelegate_mc_20_39_stop:
+    }
+}
+[ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/RequestDelegate.mc"; @line = 1; ]
+<init> {
+}

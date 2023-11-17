@@ -1,0 +1,67 @@
+[ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/Constants.mc"; @line = 2; ]
+module Properties {
+    [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/Constants.mc"; @line = 2; ]
+    <init> {
+    }
+    [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/Constants.mc"; @line = 3; ]
+    enum {
+        [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/Constants.mc"; @line = 4; @position = 8; ]
+        AUTHENTICATION_TOKEN,
+        [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/Constants.mc"; @line = 5; @position = 8; ]
+        SYNC_LIST,
+        [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/Constants.mc"; @line = 6; @position = 8; ]
+        DELETE_LIST,
+        [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/Constants.mc"; @line = 7; @position = 8; ]
+        PLAYLIST,
+        [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/Constants.mc"; @line = 8; @position = 8; ]
+        SONGS,
+        [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/Constants.mc"; @line = 9; @position = 8; ]
+        APP_VERSION
+    }
+}
+[ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/Constants.mc"; @line = 16; ]
+module Versions {
+    [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/Constants.mc"; @line = 16; ]
+    <init> {
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/Constants.mc" 21 10 ]
+        %tmp.2 = getv ? :V1;
+        putv self :current %tmp.2;
+    }
+    [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/Constants.mc"; @line = 17; ]
+    enum {
+        [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/Constants.mc"; @line = 18; @position = 8; ]
+        V1 = 0
+    }
+    [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/Constants.mc"; @line = 21; @position = 10; ]
+    const current;
+}
+[ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/Constants.mc"; @line = 25; ]
+module SongInfo {
+    [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/Constants.mc"; @line = 25; ]
+    <init> {
+    }
+    [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/Constants.mc"; @line = 26; ]
+    enum {
+        [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/Constants.mc"; @line = 27; @position = 8; ]
+        URL,
+        [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/Constants.mc"; @line = 28; @position = 8; ]
+        CAN_SKIP,
+        [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/Constants.mc"; @line = 29; @position = 8; ]
+        ID,
+        [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/Constants.mc"; @line = 30; @position = 8; ]
+        TYPE
+    }
+}
+[ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/Constants.mc"; @line = 35; ]
+module Constants {
+    [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/Constants.mc"; @line = 35; ]
+    <init> {
+    }
+    [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/Constants.mc"; @line = 36; @position = 10; ]
+    const PROVIDER_URL = "http://localhost:8000/cgi-bin/media.py";
+    [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/Constants.mc"; @line = 37; @position = 10; ]
+    const REDIRECT_URL = "http://localhost:8000/cgi-bin/callback.py";
+}
+[ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/Constants.mc"; @line = 2; ]
+<init> {
+}

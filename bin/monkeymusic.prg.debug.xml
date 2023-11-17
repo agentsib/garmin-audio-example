@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentDelegate.mc" id="1" lineNum="5" parent="globals/ContentDelegate" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentDelegate.mc" id="1" lineNum="10" parent="globals/ContentDelegate" pc="268435478" symbol="&lt;init&gt;"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentDelegate.mc" id="2" lineNum="55" parent="globals/ContentDelegate" pc="268435597" symbol="onShuffle"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentDelegate.mc" id="2" lineNum="56" parent="globals/ContentDelegate" pc="268435599" symbol="onShuffle"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentDelegate.mc" id="3" lineNum="19" parent="globals/ContentDelegate" pc="268435618" symbol="getContentIterator"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentDelegate.mc" id="3" lineNum="20" parent="globals/ContentDelegate" pc="268435620" symbol="getContentIterator"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentDelegate.mc" id="4" lineNum="32" parent="globals/ContentDelegate" pc="268435629" symbol="onAdAction"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentDelegate.mc" id="4" lineNum="33" parent="globals/ContentDelegate" pc="268435631" symbol="onAdAction"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentDelegate.mc" id="5" lineNum="38" parent="globals/ContentDelegate" pc="268435667" symbol="onThumbsUp"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentDelegate.mc" id="5" lineNum="39" parent="globals/ContentDelegate" pc="268435669" symbol="onThumbsUp"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentDelegate.mc" id="6" lineNum="13" parent="globals/ContentDelegate" pc="268435705" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentDelegate.mc" id="6" lineNum="14" parent="globals/ContentDelegate" pc="268435707" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentDelegate.mc" id="6" lineNum="15" parent="globals/ContentDelegate" pc="268435725" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentDelegate.mc" id="7" lineNum="50" parent="globals/ContentDelegate" pc="268435738" symbol="onSong"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentDelegate.mc" id="7" lineNum="51" parent="globals/ContentDelegate" pc="268435740" symbol="onSong"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentDelegate.mc" id="8" lineNum="24" parent="globals/ContentDelegate" pc="268435803" symbol="resetContentIterator"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentDelegate.mc" id="8" lineNum="25" parent="globals/ContentDelegate" pc="268435805" symbol="resetContentIterator"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentDelegate.mc" id="8" lineNum="27" parent="globals/ContentDelegate" pc="268435839" symbol="resetContentIterator"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentDelegate.mc" id="9" lineNum="44" parent="globals/ContentDelegate" pc="268435848" symbol="onThumbsDown"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentDelegate.mc" id="9" lineNum="45" parent="globals/ContentDelegate" pc="268435850" symbol="onThumbsDown"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentDelegate.mc" id="10" lineNum="60" parent="globals/ContentDelegate" pc="268435886" symbol="getSongName"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentDelegate.mc" id="10" lineNum="61" parent="globals/ContentDelegate" pc="268435890" symbol="getSongName"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentDelegate.mc" id="10" lineNum="62" parent="globals/ContentDelegate" pc="268435940" symbol="getSongName"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncMenuDelegate.mc" id="11" lineNum="4" parent="globals/ConfigureSyncMenuDelegate" pc="268435958" symbol="&lt;init&gt;"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncMenuDelegate.mc" id="12" lineNum="29" parent="globals/ConfigureSyncMenuDelegate" pc="268435977" symbol="onBack"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncMenuDelegate.mc" id="12" lineNum="30" parent="globals/ConfigureSyncMenuDelegate" pc="268435979" symbol="onBack"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncMenuDelegate.mc" id="13" lineNum="34" parent="globals/ConfigureSyncMenuDelegate" pc="268436001" symbol="onDone"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncMenuDelegate.mc" id="13" lineNum="35" parent="globals/ConfigureSyncMenuDelegate" pc="268436005" symbol="onDone"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncMenuDelegate.mc" id="13" lineNum="38" parent="globals/ConfigureSyncMenuDelegate" pc="268436024" symbol="onDone"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncMenuDelegate.mc" id="13" lineNum="39" parent="globals/ConfigureSyncMenuDelegate" pc="268436042" symbol="onDone"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncMenuDelegate.mc" id="13" lineNum="40" parent="globals/ConfigureSyncMenuDelegate" pc="268436049" symbol="onDone"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncMenuDelegate.mc" id="13" lineNum="44" parent="globals/ConfigureSyncMenuDelegate" pc="268436060" symbol="onDone"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncMenuDelegate.mc" id="13" lineNum="45" parent="globals/ConfigureSyncMenuDelegate" pc="268436078" symbol="onDone"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncMenuDelegate.mc" id="13" lineNum="46" parent="globals/ConfigureSyncMenuDelegate" pc="268436085" symbol="onDone"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncMenuDelegate.mc" id="13" lineNum="51" parent="globals/ConfigureSyncMenuDelegate" pc="268436096" symbol="onDone"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncMenuDelegate.mc" id="13" lineNum="52" parent="globals/ConfigureSyncMenuDelegate" pc="268436126" symbol="onDone"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncMenuDelegate.mc" id="13" lineNum="53" parent="globals/ConfigureSyncMenuDelegate" pc="268436164" symbol="onDone"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncMenuDelegate.mc" id="13" lineNum="56" parent="globals/ConfigureSyncMenuDelegate" pc="268436247" symbol="onDone"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncMenuDelegate.mc" id="13" lineNum="61" parent="globals/ConfigureSyncMenuDelegate" pc="268436285" symbol="onDone"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncMenuDelegate.mc" id="13" lineNum="63" parent="globals/ConfigureSyncMenuDelegate" pc="268436304" symbol="onDone"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncMenuDelegate.mc" id="13" lineNum="64" parent="globals/ConfigureSyncMenuDelegate" pc="268436322" symbol="onDone"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncMenuDelegate.mc" id="13" lineNum="65" parent="globals/ConfigureSyncMenuDelegate" pc="268436329" symbol="onDone"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncMenuDelegate.mc" id="13" lineNum="68" parent="globals/ConfigureSyncMenuDelegate" pc="268436340" symbol="onDone"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncMenuDelegate.mc" id="13" lineNum="69" parent="globals/ConfigureSyncMenuDelegate" pc="268436370" symbol="onDone"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncMenuDelegate.mc" id="13" lineNum="70" parent="globals/ConfigureSyncMenuDelegate" pc="268436402" symbol="onDone"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncMenuDelegate.mc" id="13" lineNum="71" parent="globals/ConfigureSyncMenuDelegate" pc="268436409" symbol="onDone"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncMenuDelegate.mc" id="13" lineNum="75" parent="globals/ConfigureSyncMenuDelegate" pc="268436439" symbol="onDone"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncMenuDelegate.mc" id="13" lineNum="77" parent="globals/ConfigureSyncMenuDelegate" pc="268436458" symbol="onDone"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncMenuDelegate.mc" id="14" lineNum="10" parent="globals/ConfigureSyncMenuDelegate" pc="268436480" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncMenuDelegate.mc" id="14" lineNum="11" parent="globals/ConfigureSyncMenuDelegate" pc="268436482" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncMenuDelegate.mc" id="14" lineNum="12" parent="globals/ConfigureSyncMenuDelegate" pc="268436500" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncMenuDelegate.mc" id="14" lineNum="13" parent="globals/ConfigureSyncMenuDelegate" pc="268436514" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncMenuDelegate.mc" id="15" lineNum="82" parent="globals/ConfigureSyncMenuDelegate" pc="268436529" symbol="getRefIdFromSongs"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncMenuDelegate.mc" id="15" lineNum="83" parent="globals/ConfigureSyncMenuDelegate" pc="268436533" symbol="getRefIdFromSongs"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncMenuDelegate.mc" id="15" lineNum="85" parent="globals/ConfigureSyncMenuDelegate" pc="268436546" symbol="getRefIdFromSongs"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncMenuDelegate.mc" id="15" lineNum="86" parent="globals/ConfigureSyncMenuDelegate" pc="268436570" symbol="getRefIdFromSongs"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncMenuDelegate.mc" id="15" lineNum="87" parent="globals/ConfigureSyncMenuDelegate" pc="268436592" symbol="getRefIdFromSongs"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncMenuDelegate.mc" id="15" lineNum="91" parent="globals/ConfigureSyncMenuDelegate" pc="268436614" symbol="getRefIdFromSongs"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncMenuDelegate.mc" id="16" lineNum="18" parent="globals/ConfigureSyncMenuDelegate" pc="268436616" symbol="onSelect"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncMenuDelegate.mc" id="16" lineNum="19" parent="globals/ConfigureSyncMenuDelegate" pc="268436618" symbol="onSelect"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncMenuDelegate.mc" id="16" lineNum="20" parent="globals/ConfigureSyncMenuDelegate" pc="268436632" symbol="onSelect"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncMenuDelegate.mc" id="16" lineNum="21" parent="globals/ConfigureSyncMenuDelegate" pc="268436661" symbol="onSelect"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncMenuDelegate.mc" id="16" lineNum="23" parent="globals/ConfigureSyncMenuDelegate" pc="268436693" symbol="onSelect"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncMenuDelegate.mc" id="16" lineNum="24" parent="globals/ConfigureSyncMenuDelegate" pc="268436722" symbol="onSelect"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc" id="17" lineNum="6" parent="globals/OauthView" pc="268436752" symbol="&lt;init&gt;"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc" id="18" lineNum="30" parent="globals/OauthView" pc="268436771" symbol="onOAuthComplete"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc" id="18" lineNum="32" parent="globals/OauthView" pc="268436775" symbol="onOAuthComplete"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc" id="18" lineNum="33" parent="globals/OauthView" pc="268436808" symbol="onOAuthComplete"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc" id="18" lineNum="34" parent="globals/OauthView" pc="268436824" symbol="onOAuthComplete"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc" id="18" lineNum="35" parent="globals/OauthView" pc="268436831" symbol="onOAuthComplete"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc" id="18" lineNum="36" parent="globals/OauthView" pc="268436863" symbol="onOAuthComplete"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc" id="18" lineNum="38" parent="globals/OauthView" pc="268436890" symbol="onOAuthComplete"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc" id="18" lineNum="39" parent="globals/OauthView" pc="268436903" symbol="onOAuthComplete"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc" id="18" lineNum="40" parent="globals/OauthView" pc="268436925" symbol="onOAuthComplete"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc" id="18" lineNum="42" parent="globals/OauthView" pc="268436978" symbol="onOAuthComplete"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc" id="18" lineNum="43" parent="globals/OauthView" pc="268436985" symbol="onOAuthComplete"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc" id="18" lineNum="46" parent="globals/OauthView" pc="268437035" symbol="onOAuthComplete"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc" id="19" lineNum="8" parent="globals/OauthView" pc="268437055" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc" id="19" lineNum="9" parent="globals/OauthView" pc="268437057" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc" id="19" lineNum="12" parent="globals/OauthView" pc="268437075" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc" id="19" lineNum="13" parent="globals/OauthView" pc="268437109" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc" id="20" lineNum="17" parent="globals/OauthView" pc="268437194" symbol="onUpdate"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc" id="20" lineNum="18" parent="globals/OauthView" pc="268437196" symbol="onUpdate"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc" id="20" lineNum="19" parent="globals/OauthView" pc="268437218" symbol="onUpdate"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc" id="20" lineNum="20" parent="globals/OauthView" pc="268437230" symbol="onUpdate"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc" id="20" lineNum="22" parent="globals/OauthView" pc="268437252" symbol="onUpdate"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="21" lineNum="6" parent="globals/ContentIterator" pc="268437314" symbol="&lt;init&gt;"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="22" lineNum="51" parent="globals/ContentIterator" pc="268437333" symbol="next"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="22" lineNum="52" parent="globals/ContentIterator" pc="268437337" symbol="next"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="22" lineNum="53" parent="globals/ContentIterator" pc="268437372" symbol="next"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="22" lineNum="54" parent="globals/ContentIterator" pc="268437391" symbol="next"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="22" lineNum="55" parent="globals/ContentIterator" pc="268437456" symbol="next"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="22" lineNum="58" parent="globals/ContentIterator" pc="268437462" symbol="next"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="23" lineNum="63" parent="globals/ContentIterator" pc="268437464" symbol="previous"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="23" lineNum="64" parent="globals/ContentIterator" pc="268437468" symbol="previous"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="23" lineNum="65" parent="globals/ContentIterator" pc="268437485" symbol="previous"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="23" lineNum="66" parent="globals/ContentIterator" pc="268437504" symbol="previous"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="23" lineNum="67" parent="globals/ContentIterator" pc="268437569" symbol="previous"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="23" lineNum="70" parent="globals/ContentIterator" pc="268437575" symbol="previous"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="24" lineNum="95" parent="globals/ContentIterator" pc="268437577" symbol="peekPrevious"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="24" lineNum="96" parent="globals/ContentIterator" pc="268437581" symbol="peekPrevious"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="24" lineNum="97" parent="globals/ContentIterator" pc="268437597" symbol="peekPrevious"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="24" lineNum="98" parent="globals/ContentIterator" pc="268437608" symbol="peekPrevious"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="24" lineNum="99" parent="globals/ContentIterator" pc="268437667" symbol="peekPrevious"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="24" lineNum="102" parent="globals/ContentIterator" pc="268437673" symbol="peekPrevious"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="25" lineNum="111" parent="globals/ContentIterator" pc="268437675" symbol="canSkip"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="25" lineNum="112" parent="globals/ContentIterator" pc="268437679" symbol="canSkip"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="25" lineNum="113" parent="globals/ContentIterator" pc="268437710" symbol="canSkip"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="25" lineNum="114" parent="globals/ContentIterator" pc="268437714" symbol="canSkip"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="25" lineNum="115" parent="globals/ContentIterator" pc="268437773" symbol="canSkip"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="25" lineNum="117" parent="globals/ContentIterator" pc="268437804" symbol="canSkip"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="26" lineNum="121" parent="globals/ContentIterator" pc="268437807" symbol="toggleShuffle"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="26" lineNum="122" parent="globals/ContentIterator" pc="268437809" symbol="toggleShuffle"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="26" lineNum="123" parent="globals/ContentIterator" pc="268437820" symbol="toggleShuffle"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="26" lineNum="124" parent="globals/ContentIterator" pc="268437830" symbol="toggleShuffle"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="26" lineNum="126" parent="globals/ContentIterator" pc="268437845" symbol="toggleShuffle"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="26" lineNum="127" parent="globals/ContentIterator" pc="268437857" symbol="toggleShuffle"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="27" lineNum="24" parent="globals/ContentIterator" pc="268437868" symbol="getPlaybackProfile"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="27" lineNum="25" parent="globals/ContentIterator" pc="268437872" symbol="getPlaybackProfile"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="27" lineNum="27" parent="globals/ContentIterator" pc="268437896" symbol="getPlaybackProfile"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="27" lineNum="40" parent="globals/ContentIterator" pc="268437988" symbol="getPlaybackProfile"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="27" lineNum="42" parent="globals/ContentIterator" pc="268437998" symbol="getPlaybackProfile"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="27" lineNum="43" parent="globals/ContentIterator" pc="268438008" symbol="getPlaybackProfile"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="27" lineNum="44" parent="globals/ContentIterator" pc="268438021" symbol="getPlaybackProfile"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="27" lineNum="46" parent="globals/ContentIterator" pc="268438034" symbol="getPlaybackProfile"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="28" lineNum="149" parent="globals/ContentIterator" pc="268438037" symbol="initializePlaylist"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="28" lineNum="150" parent="globals/ContentIterator" pc="268438041" symbol="initializePlaylist"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="28" lineNum="152" parent="globals/ContentIterator" pc="268438072" symbol="initializePlaylist"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="28" lineNum="153" parent="globals/ContentIterator" pc="268438079" symbol="initializePlaylist"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="28" lineNum="155" parent="globals/ContentIterator" pc="268438115" symbol="initializePlaylist"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="28" lineNum="156" parent="globals/ContentIterator" pc="268438129" symbol="initializePlaylist"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="28" lineNum="157" parent="globals/ContentIterator" pc="268438136" symbol="initializePlaylist"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="28" lineNum="158" parent="globals/ContentIterator" pc="268438149" symbol="initializePlaylist"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="28" lineNum="159" parent="globals/ContentIterator" pc="268438156" symbol="initializePlaylist"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="28" lineNum="160" parent="globals/ContentIterator" pc="268438185" symbol="initializePlaylist"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="28" lineNum="164" parent="globals/ContentIterator" pc="268438207" symbol="initializePlaylist"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="28" lineNum="165" parent="globals/ContentIterator" pc="268438227" symbol="initializePlaylist"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="28" lineNum="166" parent="globals/ContentIterator" pc="268438257" symbol="initializePlaylist"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="29" lineNum="84" parent="globals/ContentIterator" pc="268438287" symbol="peekNext"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="29" lineNum="85" parent="globals/ContentIterator" pc="268438291" symbol="peekNext"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="29" lineNum="86" parent="globals/ContentIterator" pc="268438307" symbol="peekNext"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="29" lineNum="87" parent="globals/ContentIterator" pc="268438330" symbol="peekNext"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="29" lineNum="88" parent="globals/ContentIterator" pc="268438389" symbol="peekNext"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="29" lineNum="91" parent="globals/ContentIterator" pc="268438395" symbol="peekNext"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="30" lineNum="74" parent="globals/ContentIterator" pc="268438397" symbol="get"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="30" lineNum="75" parent="globals/ContentIterator" pc="268438401" symbol="get"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="30" lineNum="76" parent="globals/ContentIterator" pc="268438404" symbol="get"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="30" lineNum="77" parent="globals/ContentIterator" pc="268438453" symbol="get"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="30" lineNum="80" parent="globals/ContentIterator" pc="268438521" symbol="get"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="31" lineNum="106" parent="globals/ContentIterator" pc="268438524" symbol="shuffling"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="31" lineNum="107" parent="globals/ContentIterator" pc="268438526" symbol="shuffling"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="32" lineNum="16" parent="globals/ContentIterator" pc="268438535" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="32" lineNum="17" parent="globals/ContentIterator" pc="268438537" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="32" lineNum="18" parent="globals/ContentIterator" pc="268438555" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="32" lineNum="20" parent="globals/ContentIterator" pc="268438568" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="33" lineNum="132" parent="globals/ContentIterator" pc="268438581" symbol="shufflePlaylist"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="33" lineNum="133" parent="globals/ContentIterator" pc="268438585" symbol="shufflePlaylist"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="33" lineNum="134" parent="globals/ContentIterator" pc="268438601" symbol="shufflePlaylist"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="33" lineNum="135" parent="globals/ContentIterator" pc="268438632" symbol="shufflePlaylist"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="33" lineNum="137" parent="globals/ContentIterator" pc="268438651" symbol="shufflePlaylist"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="33" lineNum="138" parent="globals/ContentIterator" pc="268438681" symbol="shufflePlaylist"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="33" lineNum="139" parent="globals/ContentIterator" pc="268438694" symbol="shufflePlaylist"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="33" lineNum="140" parent="globals/ContentIterator" pc="268438735" symbol="shufflePlaylist"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="33" lineNum="141" parent="globals/ContentIterator" pc="268438757" symbol="shufflePlaylist"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ContentIterator.mc" id="33" lineNum="144" parent="globals/ContentIterator" pc="268438783" symbol="shufflePlaylist"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/MonkeyMusicApp.mc" id="34" lineNum="4" parent="globals/MonkeyMusicApp" pc="268438797" symbol="&lt;init&gt;"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/MonkeyMusicApp.mc" id="35" lineNum="41" parent="globals/MonkeyMusicApp" pc="268438816" symbol="getProviderIconInfo"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/MonkeyMusicApp.mc" id="35" lineNum="42" parent="globals/MonkeyMusicApp" pc="268438818" symbol="getProviderIconInfo"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/MonkeyMusicApp.mc" id="36" lineNum="31" parent="globals/MonkeyMusicApp" pc="268438874" symbol="getPlaybackConfigurationView"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/MonkeyMusicApp.mc" id="36" lineNum="32" parent="globals/MonkeyMusicApp" pc="268438876" symbol="getPlaybackConfigurationView"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/MonkeyMusicApp.mc" id="37" lineNum="21" parent="globals/MonkeyMusicApp" pc="268438917" symbol="getContentDelegate"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/MonkeyMusicApp.mc" id="37" lineNum="22" parent="globals/MonkeyMusicApp" pc="268438919" symbol="getContentDelegate"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/MonkeyMusicApp.mc" id="38" lineNum="26" parent="globals/MonkeyMusicApp" pc="268438946" symbol="getSyncDelegate"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/MonkeyMusicApp.mc" id="38" lineNum="27" parent="globals/MonkeyMusicApp" pc="268438948" symbol="getSyncDelegate"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/MonkeyMusicApp.mc" id="39" lineNum="6" parent="globals/MonkeyMusicApp" pc="268438975" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/MonkeyMusicApp.mc" id="39" lineNum="8" parent="globals/MonkeyMusicApp" pc="268438979" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/MonkeyMusicApp.mc" id="39" lineNum="9" parent="globals/MonkeyMusicApp" pc="268438997" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/MonkeyMusicApp.mc" id="39" lineNum="10" parent="globals/MonkeyMusicApp" pc="268439008" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/MonkeyMusicApp.mc" id="39" lineNum="11" parent="globals/MonkeyMusicApp" pc="268439020" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/MonkeyMusicApp.mc" id="39" lineNum="12" parent="globals/MonkeyMusicApp" pc="268439036" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/MonkeyMusicApp.mc" id="39" lineNum="16" parent="globals/MonkeyMusicApp" pc="268439061" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/MonkeyMusicApp.mc" id="39" lineNum="17" parent="globals/MonkeyMusicApp" pc="268439083" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/MonkeyMusicApp.mc" id="40" lineNum="36" parent="globals/MonkeyMusicApp" pc="268439102" symbol="getSyncConfigurationView"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/MonkeyMusicApp.mc" id="40" lineNum="37" parent="globals/MonkeyMusicApp" pc="268439104" symbol="getSyncConfigurationView"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="41" lineNum="6" parent="globals/SyncDelegate" pc="268439145" symbol="&lt;init&gt;"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="42" lineNum="38" parent="globals/SyncDelegate" pc="268439164" symbol="onStartSync"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="42" lineNum="41" parent="globals/SyncDelegate" pc="268439166" symbol="onStartSync"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="42" lineNum="44" parent="globals/SyncDelegate" pc="268439209" symbol="onStartSync"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="42" lineNum="47" parent="globals/SyncDelegate" pc="268439221" symbol="onStartSync"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="43" lineNum="56" parent="globals/SyncDelegate" pc="268439234" symbol="deleteSongs"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="43" lineNum="57" parent="globals/SyncDelegate" pc="268439238" symbol="deleteSongs"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="43" lineNum="60" parent="globals/SyncDelegate" pc="268439255" symbol="deleteSongs"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="43" lineNum="62" parent="globals/SyncDelegate" pc="268439273" symbol="deleteSongs"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="43" lineNum="63" parent="globals/SyncDelegate" pc="268439280" symbol="deleteSongs"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="43" lineNum="67" parent="globals/SyncDelegate" pc="268439284" symbol="deleteSongs"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="43" lineNum="68" parent="globals/SyncDelegate" pc="268439314" symbol="deleteSongs"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="43" lineNum="70" parent="globals/SyncDelegate" pc="268439372" symbol="deleteSongs"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="43" lineNum="71" parent="globals/SyncDelegate" pc="268439395" symbol="deleteSongs"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="43" lineNum="74" parent="globals/SyncDelegate" pc="268439414" symbol="deleteSongs"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="43" lineNum="78" parent="globals/SyncDelegate" pc="268439439" symbol="deleteSongs"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="44" lineNum="152" parent="globals/SyncDelegate" pc="268439457" symbol="onSongSynced"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="44" lineNum="153" parent="globals/SyncDelegate" pc="268439461" symbol="onSongSynced"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="44" lineNum="155" parent="globals/SyncDelegate" pc="268439480" symbol="onSongSynced"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="44" lineNum="156" parent="globals/SyncDelegate" pc="268439508" symbol="onSongSynced"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="44" lineNum="158" parent="globals/SyncDelegate" pc="268439527" symbol="onSongSynced"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="45" lineNum="82" parent="globals/SyncDelegate" pc="268439546" symbol="syncNextSong"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="45" lineNum="83" parent="globals/SyncDelegate" pc="268439550" symbol="syncNextSong"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="45" lineNum="86" parent="globals/SyncDelegate" pc="268439569" symbol="syncNextSong"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="45" lineNum="87" parent="globals/SyncDelegate" pc="268439589" symbol="syncNextSong"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="45" lineNum="88" parent="globals/SyncDelegate" pc="268439606" symbol="syncNextSong"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="45" lineNum="92" parent="globals/SyncDelegate" pc="268439610" symbol="syncNextSong"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="45" lineNum="93" parent="globals/SyncDelegate" pc="268439630" symbol="syncNextSong"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="45" lineNum="94" parent="globals/SyncDelegate" pc="268439649" symbol="syncNextSong"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="45" lineNum="97" parent="globals/SyncDelegate" pc="268439705" symbol="syncNextSong"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="45" lineNum="101" parent="globals/SyncDelegate" pc="268439766" symbol="syncNextSong"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="45" lineNum="102" parent="globals/SyncDelegate" pc="268439812" symbol="syncNextSong"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="46" lineNum="18" parent="globals/SyncDelegate" pc="268439854" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="46" lineNum="19" parent="globals/SyncDelegate" pc="268439858" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="46" lineNum="22" parent="globals/SyncDelegate" pc="268439876" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="46" lineNum="23" parent="globals/SyncDelegate" pc="268439893" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="46" lineNum="24" parent="globals/SyncDelegate" pc="268439917" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="46" lineNum="25" parent="globals/SyncDelegate" pc="268439930" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="46" lineNum="29" parent="globals/SyncDelegate" pc="268439947" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="46" lineNum="30" parent="globals/SyncDelegate" pc="268439971" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="46" lineNum="31" parent="globals/SyncDelegate" pc="268439984" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="46" lineNum="34" parent="globals/SyncDelegate" pc="268440001" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="47" lineNum="106" parent="globals/SyncDelegate" pc="268440015" symbol="typeStringToEncoding"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="47" lineNum="107" parent="globals/SyncDelegate" pc="268440019" symbol="typeStringToEncoding"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="47" lineNum="109" parent="globals/SyncDelegate" pc="268440026" symbol="typeStringToEncoding"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="47" lineNum="110" parent="globals/SyncDelegate" pc="268440045" symbol="typeStringToEncoding"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="47" lineNum="111" parent="globals/SyncDelegate" pc="268440055" symbol="typeStringToEncoding"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="47" lineNum="112" parent="globals/SyncDelegate" pc="268440074" symbol="typeStringToEncoding"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="47" lineNum="113" parent="globals/SyncDelegate" pc="268440084" symbol="typeStringToEncoding"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="47" lineNum="114" parent="globals/SyncDelegate" pc="268440103" symbol="typeStringToEncoding"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="47" lineNum="115" parent="globals/SyncDelegate" pc="268440113" symbol="typeStringToEncoding"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="47" lineNum="116" parent="globals/SyncDelegate" pc="268440132" symbol="typeStringToEncoding"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="47" lineNum="119" parent="globals/SyncDelegate" pc="268440142" symbol="typeStringToEncoding"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="48" lineNum="51" parent="globals/SyncDelegate" pc="268440145" symbol="isSyncNeeded"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="48" lineNum="52" parent="globals/SyncDelegate" pc="268440147" symbol="isSyncNeeded"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="49" lineNum="123" parent="globals/SyncDelegate" pc="268440200" symbol="onSongDownloaded"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="49" lineNum="124" parent="globals/SyncDelegate" pc="268440204" symbol="onSongDownloaded"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="49" lineNum="125" parent="globals/SyncDelegate" pc="268440215" symbol="onSongDownloaded"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="49" lineNum="128" parent="globals/SyncDelegate" pc="268440232" symbol="onSongDownloaded"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="49" lineNum="129" parent="globals/SyncDelegate" pc="268440258" symbol="onSongDownloaded"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="49" lineNum="132" parent="globals/SyncDelegate" pc="268440283" symbol="onSongDownloaded"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="49" lineNum="133" parent="globals/SyncDelegate" pc="268440301" symbol="onSongDownloaded"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="49" lineNum="134" parent="globals/SyncDelegate" pc="268440308" symbol="onSongDownloaded"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="49" lineNum="136" parent="globals/SyncDelegate" pc="268440319" symbol="onSongDownloaded"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="49" lineNum="137" parent="globals/SyncDelegate" pc="268440336" symbol="onSongDownloaded"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="49" lineNum="138" parent="globals/SyncDelegate" pc="268440352" symbol="onSongDownloaded"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="49" lineNum="141" parent="globals/SyncDelegate" pc="268440371" symbol="onSongDownloaded"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="49" lineNum="144" parent="globals/SyncDelegate" pc="268440383" symbol="onSongDownloaded"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="49" lineNum="146" parent="globals/SyncDelegate" pc="268440398" symbol="onSongDownloaded"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/SyncDelegate.mc" id="49" lineNum="147" parent="globals/SyncDelegate" pc="268440408" symbol="onSongDownloaded"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/bin/gen/006-B3288-00/source/Rez.mcgen" id="50" lineNum="7" parent="globals/Rez" pc="268440427" symbol="&lt;init&gt;"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="51" lineNum="8" parent="globals/ConfigureSyncView" pc="268440451" symbol="&lt;init&gt;"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="52" lineNum="29" parent="globals/ConfigureSyncView" pc="268440470" symbol="onShow"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="52" lineNum="31" parent="globals/ConfigureSyncView" pc="268440474" symbol="onShow"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="52" lineNum="32" parent="globals/ConfigureSyncView" pc="268440505" symbol="onShow"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="52" lineNum="33" parent="globals/ConfigureSyncView" pc="268440512" symbol="onShow"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="52" lineNum="34" parent="globals/ConfigureSyncView" pc="268440563" symbol="onShow"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="52" lineNum="35" parent="globals/ConfigureSyncView" pc="268440574" symbol="onShow"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="52" lineNum="37" parent="globals/ConfigureSyncView" pc="268440598" symbol="onShow"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="52" lineNum="38" parent="globals/ConfigureSyncView" pc="268440629" symbol="onShow"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="52" lineNum="39" parent="globals/ConfigureSyncView" pc="268440701" symbol="onShow"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="53" lineNum="22" parent="globals/ConfigureSyncView" pc="268440716" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="53" lineNum="23" parent="globals/ConfigureSyncView" pc="268440718" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="53" lineNum="25" parent="globals/ConfigureSyncView" pc="268440736" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="54" lineNum="44" parent="globals/ConfigureSyncView" pc="268440747" symbol="onUpdate"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="54" lineNum="45" parent="globals/ConfigureSyncView" pc="268440749" symbol="onUpdate"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="54" lineNum="46" parent="globals/ConfigureSyncView" pc="268440771" symbol="onUpdate"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="54" lineNum="47" parent="globals/ConfigureSyncView" pc="268440783" symbol="onUpdate"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="54" lineNum="50" parent="globals/ConfigureSyncView" pc="268440805" symbol="onUpdate"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="55" lineNum="54" parent="globals/ConfigureSyncView" pc="268440901" symbol="onFileListing"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="55" lineNum="55" parent="globals/ConfigureSyncView" pc="268440903" symbol="onFileListing"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="55" lineNum="56" parent="globals/ConfigureSyncView" pc="268440914" symbol="onFileListing"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="55" lineNum="57" parent="globals/ConfigureSyncView" pc="268440924" symbol="onFileListing"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="55" lineNum="59" parent="globals/ConfigureSyncView" pc="268440939" symbol="onFileListing"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="55" lineNum="60" parent="globals/ConfigureSyncView" pc="268440946" symbol="onFileListing"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="55" lineNum="62" parent="globals/ConfigureSyncView" pc="268441005" symbol="onFileListing"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="55" lineNum="65" parent="globals/ConfigureSyncView" pc="268441058" symbol="onFileListing"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="56" lineNum="69" parent="globals/ConfigureSyncView" pc="268441075" symbol="pushSyncMenu"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="56" lineNum="70" parent="globals/ConfigureSyncView" pc="268441079" symbol="pushSyncMenu"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="56" lineNum="71" parent="globals/ConfigureSyncView" pc="268441145" symbol="pushSyncMenu"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="56" lineNum="72" parent="globals/ConfigureSyncView" pc="268441164" symbol="pushSyncMenu"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="56" lineNum="73" parent="globals/ConfigureSyncView" pc="268441172" symbol="pushSyncMenu"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="56" lineNum="76" parent="globals/ConfigureSyncView" pc="268441189" symbol="pushSyncMenu"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="56" lineNum="77" parent="globals/ConfigureSyncView" pc="268441207" symbol="pushSyncMenu"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="56" lineNum="78" parent="globals/ConfigureSyncView" pc="268441214" symbol="pushSyncMenu"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="56" lineNum="81" parent="globals/ConfigureSyncView" pc="268441225" symbol="pushSyncMenu"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="56" lineNum="82" parent="globals/ConfigureSyncView" pc="268441238" symbol="pushSyncMenu"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="56" lineNum="83" parent="globals/ConfigureSyncView" pc="268441262" symbol="pushSyncMenu"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="56" lineNum="84" parent="globals/ConfigureSyncView" pc="268441272" symbol="pushSyncMenu"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="56" lineNum="88" parent="globals/ConfigureSyncView" pc="268441292" symbol="pushSyncMenu"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="56" lineNum="89" parent="globals/ConfigureSyncView" pc="268441310" symbol="pushSyncMenu"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="56" lineNum="90" parent="globals/ConfigureSyncView" pc="268441317" symbol="pushSyncMenu"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="56" lineNum="93" parent="globals/ConfigureSyncView" pc="268441328" symbol="pushSyncMenu"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="56" lineNum="94" parent="globals/ConfigureSyncView" pc="268441341" symbol="pushSyncMenu"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="56" lineNum="95" parent="globals/ConfigureSyncView" pc="268441365" symbol="pushSyncMenu"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="56" lineNum="96" parent="globals/ConfigureSyncView" pc="268441372" symbol="pushSyncMenu"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="56" lineNum="100" parent="globals/ConfigureSyncView" pc="268441392" symbol="pushSyncMenu"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="56" lineNum="101" parent="globals/ConfigureSyncView" pc="268441416" symbol="pushSyncMenu"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="56" lineNum="106" parent="globals/ConfigureSyncView" pc="268441516" symbol="pushSyncMenu"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="56" lineNum="108" parent="globals/ConfigureSyncView" pc="268441543" symbol="pushSyncMenu"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigureSyncView.mc" id="56" lineNum="109" parent="globals/ConfigureSyncView" pc="268441592" symbol="pushSyncMenu"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenuDelegate.mc" id="57" lineNum="5" parent="globals/ConfigurePlaybackMenuDelegate" pc="268441603" symbol="&lt;init&gt;"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenuDelegate.mc" id="58" lineNum="36" parent="globals/ConfigurePlaybackMenuDelegate" pc="268441622" symbol="onBack"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenuDelegate.mc" id="58" lineNum="37" parent="globals/ConfigurePlaybackMenuDelegate" pc="268441624" symbol="onBack"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenuDelegate.mc" id="59" lineNum="31" parent="globals/ConfigurePlaybackMenuDelegate" pc="268441646" symbol="onDone"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenuDelegate.mc" id="59" lineNum="32" parent="globals/ConfigurePlaybackMenuDelegate" pc="268441648" symbol="onDone"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenuDelegate.mc" id="60" lineNum="8" parent="globals/ConfigurePlaybackMenuDelegate" pc="268441666" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenuDelegate.mc" id="60" lineNum="9" parent="globals/ConfigurePlaybackMenuDelegate" pc="268441668" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenuDelegate.mc" id="61" lineNum="13" parent="globals/ConfigurePlaybackMenuDelegate" pc="268441687" symbol="onSelect"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenuDelegate.mc" id="61" lineNum="14" parent="globals/ConfigurePlaybackMenuDelegate" pc="268441691" symbol="onSelect"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenuDelegate.mc" id="61" lineNum="15" parent="globals/ConfigurePlaybackMenuDelegate" pc="268441710" symbol="onSelect"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenuDelegate.mc" id="61" lineNum="17" parent="globals/ConfigurePlaybackMenuDelegate" pc="268441728" symbol="onSelect"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenuDelegate.mc" id="61" lineNum="18" parent="globals/ConfigurePlaybackMenuDelegate" pc="268441735" symbol="onSelect"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenuDelegate.mc" id="61" lineNum="21" parent="globals/ConfigurePlaybackMenuDelegate" pc="268441746" symbol="onSelect"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenuDelegate.mc" id="61" lineNum="22" parent="globals/ConfigurePlaybackMenuDelegate" pc="268441760" symbol="onSelect"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenuDelegate.mc" id="61" lineNum="24" parent="globals/ConfigurePlaybackMenuDelegate" pc="268441786" symbol="onSelect"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenuDelegate.mc" id="61" lineNum="27" parent="globals/ConfigurePlaybackMenuDelegate" pc="268441809" symbol="onSelect"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/RequestDelegate.mc" id="62" lineNum="15" parent="globals/RequestDelegate" pc="268441829" symbol="makeWebRequest"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/RequestDelegate.mc" id="62" lineNum="16" parent="globals/RequestDelegate" pc="268441831" symbol="makeWebRequest"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/RequestDelegate.mc" id="63" lineNum="9" parent="globals/RequestDelegate" pc="268441870" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/RequestDelegate.mc" id="63" lineNum="10" parent="globals/RequestDelegate" pc="268441872" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/RequestDelegate.mc" id="63" lineNum="11" parent="globals/RequestDelegate" pc="268441882" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/RequestDelegate.mc" id="64" lineNum="20" parent="globals/RequestDelegate" pc="268441893" symbol="onWebResponse"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/RequestDelegate.mc" id="64" lineNum="21" parent="globals/RequestDelegate" pc="268441895" symbol="onWebResponse"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenu.mc" id="65" lineNum="4" parent="globals/ConfigurePlaybackMenu" pc="268441926" symbol="&lt;init&gt;"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenu.mc" id="66" lineNum="7" parent="globals/ConfigurePlaybackMenu" pc="268441945" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenu.mc" id="66" lineNum="8" parent="globals/ConfigurePlaybackMenu" pc="268441949" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenu.mc" id="66" lineNum="9" parent="globals/ConfigurePlaybackMenu" pc="268442005" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenu.mc" id="66" lineNum="12" parent="globals/ConfigurePlaybackMenu" pc="268442024" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenu.mc" id="66" lineNum="13" parent="globals/ConfigurePlaybackMenu" pc="268442032" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenu.mc" id="66" lineNum="14" parent="globals/ConfigurePlaybackMenu" pc="268442050" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenu.mc" id="66" lineNum="15" parent="globals/ConfigurePlaybackMenu" pc="268442057" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenu.mc" id="66" lineNum="16" parent="globals/ConfigurePlaybackMenu" pc="268442081" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenu.mc" id="66" lineNum="21" parent="globals/ConfigurePlaybackMenu" pc="268442107" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenu.mc" id="66" lineNum="24" parent="globals/ConfigurePlaybackMenu" pc="268442125" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenu.mc" id="66" lineNum="25" parent="globals/ConfigurePlaybackMenu" pc="268442138" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenu.mc" id="66" lineNum="26" parent="globals/ConfigurePlaybackMenu" pc="268442162" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenu.mc" id="66" lineNum="27" parent="globals/ConfigurePlaybackMenu" pc="268442169" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenu.mc" id="66" lineNum="28" parent="globals/ConfigurePlaybackMenu" pc="268442206" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenu.mc" id="66" lineNum="29" parent="globals/ConfigurePlaybackMenu" pc="268442242" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackMenu.mc" id="66" lineNum="30" parent="globals/ConfigurePlaybackMenu" pc="268442294" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ErrorView.mc" id="67" lineNum="5" parent="globals/ErrorView" pc="268442322" symbol="&lt;init&gt;"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ErrorView.mc" id="68" lineNum="11" parent="globals/ErrorView" pc="268442341" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ErrorView.mc" id="68" lineNum="12" parent="globals/ErrorView" pc="268442343" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ErrorView.mc" id="68" lineNum="13" parent="globals/ErrorView" pc="268442361" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ErrorView.mc" id="69" lineNum="17" parent="globals/ErrorView" pc="268442372" symbol="onUpdate"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ErrorView.mc" id="69" lineNum="18" parent="globals/ErrorView" pc="268442374" symbol="onUpdate"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ErrorView.mc" id="69" lineNum="19" parent="globals/ErrorView" pc="268442396" symbol="onUpdate"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ErrorView.mc" id="69" lineNum="20" parent="globals/ErrorView" pc="268442408" symbol="onUpdate"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ErrorView.mc" id="69" lineNum="22" parent="globals/ErrorView" pc="268442430" symbol="onUpdate"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackView.mc" id="70" lineNum="7" parent="globals/ConfigurePlaybackView" pc="268442495" symbol="&lt;init&gt;"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackView.mc" id="71" lineNum="26" parent="globals/ConfigurePlaybackView" pc="268442514" symbol="onShow"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackView.mc" id="71" lineNum="27" parent="globals/ConfigurePlaybackView" pc="268442518" symbol="onShow"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackView.mc" id="71" lineNum="29" parent="globals/ConfigurePlaybackView" pc="268442530" symbol="onShow"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackView.mc" id="71" lineNum="30" parent="globals/ConfigurePlaybackView" pc="268442547" symbol="onShow"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackView.mc" id="71" lineNum="33" parent="globals/ConfigurePlaybackView" pc="268442565" symbol="onShow"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackView.mc" id="71" lineNum="34" parent="globals/ConfigurePlaybackView" pc="268442595" symbol="onShow"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackView.mc" id="71" lineNum="36" parent="globals/ConfigurePlaybackView" pc="268442671" symbol="onShow"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackView.mc" id="71" lineNum="38" parent="globals/ConfigurePlaybackView" pc="268442684" symbol="onShow"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackView.mc" id="71" lineNum="40" parent="globals/ConfigurePlaybackView" pc="268442697" symbol="onShow"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackView.mc" id="72" lineNum="15" parent="globals/ConfigurePlaybackView" pc="268442719" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackView.mc" id="72" lineNum="16" parent="globals/ConfigurePlaybackView" pc="268442723" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackView.mc" id="72" lineNum="19" parent="globals/ConfigurePlaybackView" pc="268442741" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackView.mc" id="72" lineNum="20" parent="globals/ConfigurePlaybackView" pc="268442772" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackView.mc" id="72" lineNum="21" parent="globals/ConfigurePlaybackView" pc="268442779" symbol="initialize"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackView.mc" id="73" lineNum="44" parent="globals/ConfigurePlaybackView" pc="268442831" symbol="onUpdate"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackView.mc" id="73" lineNum="45" parent="globals/ConfigurePlaybackView" pc="268442833" symbol="onUpdate"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackView.mc" id="73" lineNum="46" parent="globals/ConfigurePlaybackView" pc="268442855" symbol="onUpdate"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackView.mc" id="73" lineNum="47" parent="globals/ConfigurePlaybackView" pc="268442867" symbol="onUpdate"/>
+        <entry filename="/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/ConfigurePlaybackView.mc" id="73" lineNum="48" parent="globals/ConfigurePlaybackView" pc="268442889" symbol="onUpdate"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="8390434" method="true" symbol="getSyncConfigurationView"/>
+        <entry id="8390557" method="true" symbol="resetContentIterator"/>
+        <entry id="32" method="true" symbol="initializePlaylist"/>
+        <entry id="52" method="true" symbol="pushSyncMenu"/>
+        <entry id="8390211" module="true" symbol="Media"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="8390379" method="true" symbol="onThumbsUp"/>
+        <entry id="8390380" method="true" symbol="onThumbsDown"/>
+        <entry id="9" module="true" symbol="globals/Rez/Menus"/>
+        <entry id="11" module="true" symbol="globals/SongInfo"/>
+        <entry id="8390335" object="true" symbol="ContentIterator"/>
+        <entry id="8388826" method="true" symbol="next"/>
+        <entry field="true" id="53" symbol="mCallback"/>
+        <entry field="true" id="42" symbol="&lt;globals/SyncDelegate/&lt;&gt;mTotalSongsToSync&gt;"/>
+        <entry field="true" id="40" symbol="&lt;globals/SyncDelegate/&lt;&gt;mSongsSynced&gt;"/>
+        <entry id="17" object="true" symbol="ConfigureSyncView"/>
+        <entry field="true" id="33" symbol="&lt;globals/ContentIterator/&lt;&gt;mPlaylist&gt;"/>
+        <entry field="true" id="50" symbol="&lt;globals/ConfigureSyncView/&lt;&gt;mSongs&gt;"/>
+        <entry id="8390336" object="true" symbol="ContentDelegate"/>
+        <entry id="24" module="true" symbol="Versions"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="41" symbol="&lt;globals/SyncDelegate/&lt;&gt;mSyncList&gt;"/>
+        <entry id="8390377" method="true" symbol="getContentIterator"/>
+        <entry id="25" method="true" symbol="getSongName"/>
+        <entry field="true" id="39" symbol="&lt;globals/SyncDelegate/&lt;&gt;mDeleteList&gt;"/>
+        <entry id="8390373" method="true" symbol="shuffling"/>
+        <entry id="36" method="true" symbol="shufflePlaylist"/>
+        <entry field="true" id="60" symbol="AppName"/>
+        <entry id="21" object="true" symbol="OauthView"/>
+        <entry id="16" object="true" symbol="ConfigureSyncMenuDelegate"/>
+        <entry id="8390440" symbol="contentType"/>
+        <entry id="10" module="true" symbol="globals/Rez/Strings"/>
+        <entry field="true" id="55" symbol="&lt;globals/ErrorView/&lt;&gt;mErrorMessage&gt;"/>
+        <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+        <entry field="true" id="59" symbol="logo_with_palette"/>
+        <entry id="8390430" method="true" symbol="getContentDelegate"/>
+        <entry id="2" module="true" symbol="globals/Constants"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="20" object="true" symbol="MonkeyMusicApp"/>
+        <entry id="8389081" method="true" symbol="onBack"/>
+        <entry field="true" id="26" symbol="&lt;globals/ContentDelegate/&lt;&gt;mIterator&gt;"/>
+        <entry id="12" module="true" symbol="globals/Versions"/>
+        <entry id="51" method="true" symbol="onFileListing"/>
+        <entry id="43" method="true" symbol="onSongDownloaded"/>
+        <entry id="38" method="true" symbol="deleteSongs"/>
+        <entry id="8390425" module="true" symbol="Properties"/>
+        <entry id="4" module="true" symbol="globals/Rez"/>
+        <entry field="true" id="29" symbol="&lt;globals/ConfigureSyncMenuDelegate/&lt;&gt;mDeleteList&gt;"/>
+        <entry field="true" id="56" symbol="&lt;globals/ConfigurePlaybackView/&lt;&gt;mMenuShown&gt;"/>
+        <entry id="8390378" method="true" symbol="onAdAction"/>
+        <entry field="true" id="58" symbol="logo"/>
+        <entry field="true" id="61" symbol="fetchingSongs"/>
+        <entry id="8388789" method="true" symbol="get"/>
+        <entry id="8390342" method="true" symbol="isSyncNeeded"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="8390422" method="true" symbol="onDone"/>
+        <entry id="8390431" method="true" symbol="getSyncDelegate"/>
+        <entry id="18" module="true" symbol="Constants"/>
+        <entry id="37" method="true" symbol="toggleShuffle"/>
+        <entry field="true" id="8390516" symbol="mContext"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="14" object="true" symbol="ConfigurePlaybackMenuDelegate"/>
+        <entry id="48" module="true" symbol="Menus"/>
+        <entry id="8390433" method="true" symbol="getProviderIconInfo"/>
+        <entry id="8" module="true" symbol="globals/Rez/Layouts"/>
+        <entry field="true" id="35" symbol="&lt;globals/ContentIterator/&lt;&gt;mSongIndex&gt;"/>
+        <entry id="44" method="true" symbol="onSongSynced"/>
+        <entry field="true" id="34" symbol="&lt;globals/ContentIterator/&lt;&gt;mShuffling&gt;"/>
+        <entry id="8390337" object="true" symbol="SyncDelegate"/>
+        <entry id="7" module="true" symbol="globals/Rez/JsonData"/>
+        <entry id="8388637" module="true" symbol="Communications"/>
+        <entry id="19" object="true" symbol="ErrorView"/>
+        <entry id="5" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="8390371" method="true" symbol="peekNext"/>
+        <entry id="15" object="true" symbol="ConfigurePlaybackView"/>
+        <entry id="8390372" method="true" symbol="peekPrevious"/>
+        <entry id="8389844" symbol="responseType"/>
+        <entry id="8388786" method="true" symbol="method"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8390382" method="true" symbol="onSong"/>
+        <entry id="8389619" method="true" symbol="onSelect"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry field="true" id="30" symbol="&lt;globals/ConfigureSyncMenuDelegate/&lt;&gt;mSyncList&gt;"/>
+        <entry id="8390432" method="true" symbol="getPlaybackConfigurationView"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="8390088" module="true" object="true" symbol="JsonData"/>
+        <entry field="true" id="27" symbol="&lt;globals/ContentDelegate/&lt;&gt;mSongEvents&gt;"/>
+        <entry id="8390374" method="true" symbol="canSkip"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="8390369" method="true" symbol="getPlaybackProfile"/>
+        <entry id="8389835" method="true" symbol="makeWebRequest"/>
+        <entry id="8390370" method="true" symbol="previous"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="45" method="true" symbol="syncNextSong"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="13" object="true" symbol="ConfigurePlaybackMenu"/>
+        <entry id="22" object="true" symbol="RequestDelegate"/>
+        <entry field="true" id="49" symbol="&lt;globals/ConfigureSyncView/&lt;&gt;mMenuShown&gt;"/>
+        <entry id="28" method="true" symbol="getRefIdFromSongs"/>
+        <entry field="true" id="63" symbol="syncMenuTitle"/>
+        <entry id="8388641" module="true" symbol="Math"/>
+        <entry id="8390341" method="true" symbol="onStartSync"/>
+        <entry id="3" module="true" symbol="globals/Properties"/>
+        <entry id="54" method="true" symbol="onWebResponse"/>
+        <entry field="true" id="62" symbol="playbackMenuTitle"/>
+        <entry id="47" module="true" symbol="Layouts"/>
+        <entry id="31" method="true" symbol="onOAuthComplete"/>
+        <entry id="8390381" method="true" symbol="onShuffle"/>
+        <entry id="6" module="true" symbol="globals/Rez/Fonts"/>
+        <entry id="8390441" object="true" symbol="mediaEncoding"/>
+        <entry id="46" method="true" symbol="typeStringToEncoding"/>
+        <entry id="23" module="true" symbol="SongInfo"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+        <entry field="true" id="8389642" symbol="title"/>
+        <entry field="true" id="57" symbol="&lt;globals/ConfigurePlaybackView/&lt;&gt;mMessage&gt;"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268435666" name="refId" stackId="1" startPc="268435629"/>
+        <entry arg="true" endPc="268435704" name="refId" stackId="1" startPc="268435667"/>
+        <entry arg="true" endPc="268435802" name="refId" stackId="1" startPc="268435738"/>
+        <entry arg="true" endPc="268435802" name="songEvent" stackId="2" startPc="268435738"/>
+        <entry arg="true" endPc="268435802" name="playbackPosition" stackId="3" startPc="268435738"/>
+        <entry arg="true" endPc="268435885" name="refId" stackId="1" startPc="268435848"/>
+        <entry arg="true" endPc="268435957" name="refId" stackId="1" startPc="268435886"/>
+        <entry endPc="268435957" name="song" stackId="2" startPc="268435890"/>
+        <entry endPc="268436478" name="app" stackId="1" startPc="268436005"/>
+        <entry endPc="268436478" name="mSongs" stackId="2" startPc="268436005"/>
+        <entry endPc="268436478" name="syncInfo" stackId="3" startPc="268436005"/>
+        <entry endPc="268436284" name="i" stackId="4" startPc="268436126"/>
+        <entry endPc="268436268" name="info" stackId="5" startPc="268436164"/>
+        <entry endPc="268436478" name="deleteInfo" stackId="6" startPc="268436005"/>
+        <entry endPc="268436438" name="i" stackId="7" startPc="268436370"/>
+        <entry endPc="268436425" name="refId" stackId="8" startPc="268436370"/>
+        <entry arg="true" endPc="268436615" name="songId" stackId="1" startPc="268436529"/>
+        <entry arg="true" endPc="268436615" name="mSongs" stackId="2" startPc="268436529"/>
+        <entry endPc="268436615" name="keys" stackId="3" startPc="268436533"/>
+        <entry endPc="268436613" name="idx" stackId="4" startPc="268436570"/>
+        <entry arg="true" endPc="268436751" name="item" stackId="1" startPc="268436616"/>
+        <entry arg="true" endPc="268437054" name="data" stackId="1" startPc="268436771"/>
+        <entry endPc="268436886" name="token" stackId="2" startPc="268436808"/>
+        <entry endPc="268436974" name="message" stackId="3" startPc="268436903"/>
+        <entry endPc="268437034" name="message" stackId="4" startPc="268436978"/>
+        <entry arg="true" endPc="268437313" name="dc" stackId="1" startPc="268437194"/>
+        <entry endPc="268437458" name="obj" stackId="1" startPc="268437372"/>
+        <entry endPc="268437571" name="obj" stackId="1" startPc="268437485"/>
+        <entry endPc="268437674" name="previousIndex" stackId="1" startPc="268437581"/>
+        <entry endPc="268437669" name="obj" stackId="2" startPc="268437608"/>
+        <entry endPc="268437806" name="songs" stackId="1" startPc="268437679"/>
+        <entry endPc="268437806" name="canSkip" stackId="2" startPc="268437679"/>
+        <entry endPc="268438036" name="profile" stackId="1" startPc="268437872"/>
+        <entry endPc="268438285" name="tempPlaylist" stackId="1" startPc="268438041"/>
+        <entry endPc="268438203" name="availableSongs" stackId="2" startPc="268438079"/>
+        <entry endPc="268438200" name="song" stackId="3" startPc="268438136"/>
+        <entry endPc="268438285" name="idx" stackId="4" startPc="268438257"/>
+        <entry endPc="268438396" name="nextIndex" stackId="1" startPc="268438291"/>
+        <entry endPc="268438391" name="obj" stackId="2" startPc="268438330"/>
+        <entry endPc="268438523" name="obj" stackId="1" startPc="268438401"/>
+        <entry endPc="268438795" name="temp" stackId="1" startPc="268438585"/>
+        <entry endPc="268438782" name="idx" stackId="2" startPc="268438681"/>
+        <entry endPc="268438769" name="number" stackId="3" startPc="268438681"/>
+        <entry arg="true" endPc="268438945" name="args" stackId="1" startPc="268438917"/>
+        <entry endPc="268439100" name="version" stackId="1" startPc="268438979"/>
+        <entry endPc="268439455" name="app" stackId="1" startPc="268439238"/>
+        <entry endPc="268439455" name="songs" stackId="2" startPc="268439238"/>
+        <entry endPc="268439438" name="idx" stackId="3" startPc="268439314"/>
+        <entry endPc="268439544" name="progress" stackId="1" startPc="268439461"/>
+        <entry endPc="268439852" name="ids" stackId="1" startPc="268439550"/>
+        <entry endPc="268439849" name="songInfo" stackId="2" startPc="268439630"/>
+        <entry endPc="268439849" name="context" stackId="3" startPc="268439630"/>
+        <entry endPc="268439849" name="options" stackId="4" startPc="268439630"/>
+        <entry endPc="268439849" name="delegate" stackId="5" startPc="268439630"/>
+        <entry endPc="268440013" name="app" stackId="1" startPc="268439858"/>
+        <entry arg="true" endPc="268440144" name="type" stackId="1" startPc="268440015"/>
+        <entry endPc="268440144" name="encoding" stackId="2" startPc="268440019"/>
+        <entry arg="true" endPc="268440426" name="responseCode" stackId="1" startPc="268440200"/>
+        <entry arg="true" endPc="268440426" name="data" stackId="2" startPc="268440200"/>
+        <entry arg="true" endPc="268440426" name="context" stackId="3" startPc="268440200"/>
+        <entry endPc="268440394" name="app" stackId="4" startPc="268440215"/>
+        <entry endPc="268440394" name="songs" stackId="5" startPc="268440215"/>
+        <entry endPc="268440425" name="errorString" stackId="6" startPc="268440398"/>
+        <entry endPc="268440714" name="token" stackId="1" startPc="268440474"/>
+        <entry arg="true" endPc="268440900" name="dc" stackId="1" startPc="268440747"/>
+        <entry arg="true" endPc="268441074" name="responseCode" stackId="1" startPc="268440901"/>
+        <entry arg="true" endPc="268441074" name="data" stackId="2" startPc="268440901"/>
+        <entry endPc="268441601" name="menu" stackId="1" startPc="268441079"/>
+        <entry endPc="268441601" name="songNames" stackId="2" startPc="268441079"/>
+        <entry endPc="268441601" name="precheckedItems" stackId="3" startPc="268441079"/>
+        <entry endPc="268441601" name="app" stackId="4" startPc="268441079"/>
+        <entry endPc="268441601" name="downloadedSongs" stackId="5" startPc="268441079"/>
+        <entry endPc="268441601" name="refIds" stackId="6" startPc="268441079"/>
+        <entry endPc="268441291" name="idx" stackId="7" startPc="268441262"/>
+        <entry endPc="268441278" name="id" stackId="8" startPc="268441262"/>
+        <entry endPc="268441601" name="songsToSync" stackId="9" startPc="268441079"/>
+        <entry endPc="268441391" name="idx" stackId="10" startPc="268441365"/>
+        <entry endPc="268441378" name="id" stackId="11" startPc="268441365"/>
+        <entry endPc="268441542" name="idx" stackId="12" startPc="268441416"/>
+        <entry endPc="268441529" name="item" stackId="13" startPc="268441416"/>
+        <entry arg="true" endPc="268441828" name="item" stackId="1" startPc="268441687"/>
+        <entry endPc="268441827" name="app" stackId="2" startPc="268441691"/>
+        <entry endPc="268441827" name="playlist" stackId="3" startPc="268441691"/>
+        <entry arg="true" endPc="268441869" name="url" stackId="1" startPc="268441829"/>
+        <entry arg="true" endPc="268441869" name="params" stackId="2" startPc="268441829"/>
+        <entry arg="true" endPc="268441869" name="options" stackId="3" startPc="268441829"/>
+        <entry arg="true" endPc="268441892" name="callback" stackId="1" startPc="268441870"/>
+        <entry arg="true" endPc="268441892" name="context" stackId="2" startPc="268441870"/>
+        <entry arg="true" endPc="268441925" name="code" stackId="1" startPc="268441893"/>
+        <entry arg="true" endPc="268441925" name="data" stackId="2" startPc="268441893"/>
+        <entry endPc="268442320" name="app" stackId="1" startPc="268441949"/>
+        <entry endPc="268442320" name="currentPlaylist" stackId="2" startPc="268441949"/>
+        <entry endPc="268442320" name="playlist" stackId="3" startPc="268441949"/>
+        <entry endPc="268442103" name="idx" stackId="4" startPc="268442081"/>
+        <entry endPc="268442320" name="songs" stackId="5" startPc="268441949"/>
+        <entry endPc="268442320" name="refIds" stackId="6" startPc="268441949"/>
+        <entry endPc="268442320" name="idx" stackId="7" startPc="268442162"/>
+        <entry endPc="268442307" name="refId" stackId="8" startPc="268442162"/>
+        <entry endPc="268442307" name="ref" stackId="9" startPc="268442162"/>
+        <entry endPc="268442307" name="songName" stackId="10" startPc="268442162"/>
+        <entry endPc="268442307" name="item" stackId="11" startPc="268442162"/>
+        <entry arg="true" endPc="268442371" name="errorMessage" stackId="1" startPc="268442341"/>
+        <entry arg="true" endPc="268442494" name="dc" stackId="1" startPc="268442372"/>
+        <entry endPc="268442693" name="app" stackId="1" startPc="268442530"/>
+        <entry endPc="268442693" name="songs" stackId="2" startPc="268442530"/>
+        <entry endPc="268442829" name="token" stackId="1" startPc="268442723"/>
+        <entry arg="true" endPc="268442953" name="dc" stackId="1" startPc="268442831"/>
+    </localVars>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="playbackMenuTitle"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="logo_with_palette"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="logo"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="fetchingSongs"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="syncMenuTitle"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="119" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/ContentDelegate" offset="294" parentId="globals" symbolId="ContentDelegate" type="class"/>
+        <dataEntry label="globals/ConfigureSyncMenuDelegate" offset="421" parentId="globals" symbolId="ConfigureSyncMenuDelegate" type="class"/>
+        <dataEntry label="globals/OauthView" offset="516" parentId="globals" symbolId="OauthView" type="class"/>
+        <dataEntry label="globals/ContentIterator" offset="579" parentId="globals" symbolId="ContentIterator" type="class"/>
+        <dataEntry label="globals/MonkeyMusicApp" offset="738" parentId="globals" symbolId="MonkeyMusicApp" type="class"/>
+        <dataEntry label="globals/SyncDelegate" offset="825" parentId="globals" symbolId="SyncDelegate" type="class"/>
+        <dataEntry label="globals/Rez" offset="960" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/ConfigureSyncView" offset="1039" parentId="globals" symbolId="ConfigureSyncView" type="class"/>
+        <dataEntry label="globals/Constants" offset="1134" parentId="globals" symbolId="Constants" type="module"/>
+        <dataEntry label="globals/ConfigurePlaybackMenuDelegate" offset="1165" parentId="globals" symbolId="ConfigurePlaybackMenuDelegate" type="class"/>
+        <dataEntry label="globals/Properties" offset="1236" parentId="globals" symbolId="Properties" type="module"/>
+        <dataEntry label="globals/RequestDelegate" offset="1267" parentId="globals" symbolId="RequestDelegate" type="class"/>
+        <dataEntry label="globals/Versions" offset="1346" parentId="globals" symbolId="Versions" type="module"/>
+        <dataEntry label="globals/ConfigurePlaybackMenu" offset="1377" parentId="globals" symbolId="ConfigurePlaybackMenu" type="class"/>
+        <dataEntry label="globals/ErrorView" offset="1424" parentId="globals" symbolId="ErrorView" type="class"/>
+        <dataEntry label="globals/SongInfo" offset="1487" parentId="globals" symbolId="SongInfo" type="module"/>
+        <dataEntry label="globals/ConfigurePlaybackView" offset="1518" parentId="globals" symbolId="ConfigurePlaybackView" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="1597" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="1644" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="1675" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="1706" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="1737" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/JsonData" offset="1800" parentId="Rez" symbolId="JsonData" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435596" name="&lt;init&gt;" parent="ContentDelegate" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435617" name="onShuffle" parent="ContentDelegate" startPc="268435597">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435628" name="getContentIterator" parent="ContentDelegate" startPc="268435618">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435666" name="onAdAction" parent="ContentDelegate" startPc="268435629">
+            <param id="refId"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435704" name="onThumbsUp" parent="ContentDelegate" startPc="268435667">
+            <param id="refId"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435737" name="initialize" parent="ContentDelegate" startPc="268435705">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435802" name="onSong" parent="ContentDelegate" startPc="268435738">
+            <param id="refId"/>
+            <param id="songEvent"/>
+            <param id="playbackPosition"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435847" name="resetContentIterator" parent="ContentDelegate" startPc="268435803">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435885" name="onThumbsDown" parent="ContentDelegate" startPc="268435848">
+            <param id="refId"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435957" name="getSongName" parent="ContentDelegate" startPc="268435886">
+            <param id="refId"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435976" name="&lt;init&gt;" parent="ConfigureSyncMenuDelegate" startPc="268435958">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436000" name="onBack" parent="ConfigureSyncMenuDelegate" startPc="268435977">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436479" name="onDone" parent="ConfigureSyncMenuDelegate" startPc="268436001">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436528" name="initialize" parent="ConfigureSyncMenuDelegate" startPc="268436480">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436615" name="getRefIdFromSongs" parent="ConfigureSyncMenuDelegate" startPc="268436529">
+            <param id="songId"/>
+            <param id="mSongs"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436751" name="onSelect" parent="ConfigureSyncMenuDelegate" startPc="268436616">
+            <param id="item"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436770" name="&lt;init&gt;" parent="OauthView" startPc="268436752">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437054" name="onOAuthComplete" parent="OauthView" startPc="268436771">
+            <param id="data"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437193" name="initialize" parent="OauthView" startPc="268437055">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437313" name="onUpdate" parent="OauthView" startPc="268437194">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437332" name="&lt;init&gt;" parent="ContentIterator" startPc="268437314">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437463" name="next" parent="ContentIterator" startPc="268437333">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437576" name="previous" parent="ContentIterator" startPc="268437464">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437674" name="peekPrevious" parent="ContentIterator" startPc="268437577">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437806" name="canSkip" parent="ContentIterator" startPc="268437675">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437867" name="toggleShuffle" parent="ContentIterator" startPc="268437807">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438036" name="getPlaybackProfile" parent="ContentIterator" startPc="268437868">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438286" name="initializePlaylist" parent="ContentIterator" startPc="268438037">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438396" name="peekNext" parent="ContentIterator" startPc="268438287">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438523" name="get" parent="ContentIterator" startPc="268438397">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438534" name="shuffling" parent="ContentIterator" startPc="268438524">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438580" name="initialize" parent="ContentIterator" startPc="268438535">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438796" name="shufflePlaylist" parent="ContentIterator" startPc="268438581">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438815" name="&lt;init&gt;" parent="MonkeyMusicApp" startPc="268438797">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438873" name="getProviderIconInfo" parent="MonkeyMusicApp" startPc="268438816">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438916" name="getPlaybackConfigurationView" parent="MonkeyMusicApp" startPc="268438874">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438945" name="getContentDelegate" parent="MonkeyMusicApp" startPc="268438917">
+            <param id="args"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438974" name="getSyncDelegate" parent="MonkeyMusicApp" startPc="268438946">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439101" name="initialize" parent="MonkeyMusicApp" startPc="268438975">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439144" name="getSyncConfigurationView" parent="MonkeyMusicApp" startPc="268439102">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439163" name="&lt;init&gt;" parent="SyncDelegate" startPc="268439145">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439233" name="onStartSync" parent="SyncDelegate" startPc="268439164">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439456" name="deleteSongs" parent="SyncDelegate" startPc="268439234">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439545" name="onSongSynced" parent="SyncDelegate" startPc="268439457">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439853" name="syncNextSong" parent="SyncDelegate" startPc="268439546">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440014" name="initialize" parent="SyncDelegate" startPc="268439854">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440144" name="typeStringToEncoding" parent="SyncDelegate" startPc="268440015">
+            <param id="type"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440199" name="isSyncNeeded" parent="SyncDelegate" startPc="268440145">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440426" name="onSongDownloaded" parent="SyncDelegate" startPc="268440200">
+            <param id="responseCode"/>
+            <param id="data"/>
+            <param id="context"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440450" name="&lt;init&gt;" parent="Rez" startPc="268440427">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440469" name="&lt;init&gt;" parent="ConfigureSyncView" startPc="268440451">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440715" name="onShow" parent="ConfigureSyncView" startPc="268440470">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440746" name="initialize" parent="ConfigureSyncView" startPc="268440716">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440900" name="onUpdate" parent="ConfigureSyncView" startPc="268440747">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441074" name="onFileListing" parent="ConfigureSyncView" startPc="268440901">
+            <param id="responseCode"/>
+            <param id="data"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441602" name="pushSyncMenu" parent="ConfigureSyncView" startPc="268441075">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Constants">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441621" name="&lt;init&gt;" parent="ConfigurePlaybackMenuDelegate" startPc="268441603">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441645" name="onBack" parent="ConfigurePlaybackMenuDelegate" startPc="268441622">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441665" name="onDone" parent="ConfigurePlaybackMenuDelegate" startPc="268441646">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441686" name="initialize" parent="ConfigurePlaybackMenuDelegate" startPc="268441666">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441828" name="onSelect" parent="ConfigurePlaybackMenuDelegate" startPc="268441687">
+            <param id="item"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Properties">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="RequestDelegate">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441869" name="makeWebRequest" parent="RequestDelegate" startPc="268441829">
+            <param id="url"/>
+            <param id="params"/>
+            <param id="options"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441892" name="initialize" parent="RequestDelegate" startPc="268441870">
+            <param id="callback"/>
+            <param id="context"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441925" name="onWebResponse" parent="RequestDelegate" startPc="268441893">
+            <param id="code"/>
+            <param id="data"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Versions">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441944" name="&lt;init&gt;" parent="ConfigurePlaybackMenu" startPc="268441926">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268442321" name="initialize" parent="ConfigurePlaybackMenu" startPc="268441945">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268442340" name="&lt;init&gt;" parent="ErrorView" startPc="268442322">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268442371" name="initialize" parent="ErrorView" startPc="268442341">
+            <param id="errorMessage"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268442494" name="onUpdate" parent="ErrorView" startPc="268442372">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="SongInfo">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268442513" name="&lt;init&gt;" parent="ConfigurePlaybackView" startPc="268442495">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268442718" name="onShow" parent="ConfigurePlaybackView" startPc="268442514">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268442830" name="initialize" parent="ConfigurePlaybackView" startPc="268442719">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268442953" name="onUpdate" parent="ConfigurePlaybackView" startPc="268442831">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Fonts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

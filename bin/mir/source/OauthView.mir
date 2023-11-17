@@ -1,0 +1,228 @@
+[ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc"; @line = 1; ]
+using Toybox.Application;
+[ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc"; @line = 2; ]
+using Toybox.Graphics;
+[ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc"; @line = 3; ]
+using Toybox.WatchUi;
+[ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc"; @line = 6; ]
+class OauthView extends WatchUi.View{
+    [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc"; @line = 6; ]
+    <init> {
+    }
+    [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc"; @line = 6; ]
+    static
+    <init> {
+    }
+    [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc"; @line = 8; ]
+    function initialize() as Void {
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_OauthView_mc_8_26_start:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc" 9 8 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc" 12 8 ]
+        %tmp.5 = getv ? :Communications;
+        %tmp.6 = getv function %tmp.5 :registerForOAuthMessages;
+        %tmp.7 = self;
+        %tmp.8 = getv function %tmp.7 :method;
+        %tmp.10 = const :onOAuthComplete;
+        %tmp.11 = invoke %tmp.7 %tmp.8(%tmp.10);
+        invoke %tmp.5 %tmp.6(%tmp.11);
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc" 13 8 ]
+        %tmp.13 = getv ? :Communications;
+        %tmp.14 = getv function %tmp.13 :makeOAuthRequest;
+        %tmp.16 = getv ? :Constants;
+        %tmp.17 = getv %tmp.16 :PROVIDER_URL;
+        %tmp.18 = newd 1;
+        %tmp.19 = "redirectUrl";
+        %tmp.21 = getv ? :Constants;
+        %tmp.22 = getv %tmp.21 :REDIRECT_URL;
+        %tmp.23 = dup %tmp.18;
+        %tmp.24 = aputv %tmp.23 %tmp.19 %tmp.22;
+        %tmp.26 = getv ? :Constants;
+        %tmp.27 = getv %tmp.26 :REDIRECT_URL;
+        %tmp.29 = getv ? :Communications;
+        %tmp.30 = getv %tmp.29 :OAUTH_RESULT_TYPE_URL;
+        %tmp.31 = newd 2;
+        %tmp.32 = "token";
+        %tmp.33 = "token";
+        %tmp.34 = dup %tmp.31;
+        %tmp.35 = aputv %tmp.34 %tmp.32 %tmp.33;
+        %tmp.36 = "errorMessage";
+        %tmp.37 = "errorMessage";
+        %tmp.38 = dup %tmp.35;
+        %tmp.39 = aputv %tmp.38 %tmp.36 %tmp.37;
+        invoke %tmp.13 %tmp.14(%tmp.17, %tmp.24, %tmp.27, %tmp.30, %tmp.39);
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_OauthView_mc_8_26_stop:
+    }
+    [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc"; @line = 17; ]
+    function onUpdate(dc) {
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_OauthView_mc_17_26_start:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc" 18 8 ]
+        %tmp.1 = lgetv %dc;
+        %tmp.2 = getv function %tmp.1 :setColor;
+        %tmp.3 = getm $.Toybox.Graphics;
+        %tmp.4 = getv %tmp.3 :COLOR_BLACK;
+        %tmp.5 = getm $.Toybox.Graphics;
+        %tmp.6 = getv %tmp.5 :COLOR_BLACK;
+        invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc" 19 8 ]
+        %tmp.7 = lgetv %dc;
+        %tmp.8 = getv function %tmp.7 :clear;
+        invoke %tmp.7 %tmp.8();
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc" 20 8 ]
+        %tmp.9 = lgetv %dc;
+        %tmp.10 = getv function %tmp.9 :setColor;
+        %tmp.11 = getm $.Toybox.Graphics;
+        %tmp.12 = getv %tmp.11 :COLOR_WHITE;
+        %tmp.13 = getm $.Toybox.Graphics;
+        %tmp.14 = getv %tmp.13 :COLOR_BLACK;
+        invoke %tmp.9 %tmp.10(%tmp.12, %tmp.14);
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc" 22 8 ]
+        %tmp.15 = lgetv %dc;
+        %tmp.16 = getv function %tmp.15 :drawText;
+        %tmp.17 = lgetv %dc;
+        %tmp.18 = getv function %tmp.17 :getWidth;
+        %tmp.19 = invoke %tmp.17 %tmp.18();
+        %tmp.20 = 2;
+        %tmp.21 = div %tmp.19 %tmp.20;
+        %tmp.22 = lgetv %dc;
+        %tmp.23 = getv function %tmp.22 :getHeight;
+        %tmp.24 = invoke %tmp.22 %tmp.23();
+        %tmp.25 = 2;
+        %tmp.26 = div %tmp.24 %tmp.25;
+        %tmp.27 = getm $.Toybox.Graphics;
+        %tmp.28 = getv %tmp.27 :FONT_SMALL;
+        %tmp.29 = "Sign into MonkeyMusic\nusing GCM";
+        %tmp.30 = getm $.Toybox.Graphics;
+        %tmp.31 = getv %tmp.30 :TEXT_JUSTIFY_CENTER;
+        %tmp.32 = getm $.Toybox.Graphics;
+        %tmp.33 = getv %tmp.32 :TEXT_JUSTIFY_VCENTER;
+        %tmp.34 = bitor %tmp.31 %tmp.33;
+        invoke %tmp.15 %tmp.16(%tmp.21, %tmp.26, %tmp.28, %tmp.29, %tmp.34);
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_OauthView_mc_17_26_stop:
+    }
+    [ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc"; @line = 30; ]
+    function onOAuthComplete(data) {
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_OauthView_mc_30_35_start:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc" 32 8 ]
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_OauthView_mc_32_8_if_stmt:
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_OauthView_mc_32_12_begin:
+        %tmp.1 = lgetv %data;
+        %tmp.2 = getv %tmp.1 :responseCode;
+        %tmp.3 = 200;
+        %tmp.4 = eq %tmp.2 %tmp.3;
+        %tmp.5 = dup %tmp.4;
+        bf %tmp.5 @_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_OauthView_mc_32_42_end;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_OauthView_mc_32_42_true:
+        %tmp.6 = lgetv %data;
+        %tmp.7 = getv %tmp.6 :data;
+        %tmp.8 = null;
+        %tmp.9 = ne %tmp.7 %tmp.8;
+        %tmp.10 = and %tmp.4 %tmp.9;
+        push %tmp.10;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_OauthView_mc_32_42_end:
+        %tmp.11 = phi [%tmp.5 @_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_OauthView_mc_32_12_begin] [%tmp.10 @_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_OauthView_mc_32_42_true] [%tmp.11 @_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_OauthView_mc_32_42_end];
+        bf %tmp.11 @_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_OauthView_mc_32_8_if_false;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_OauthView_mc_32_8_if_true:
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_OauthView_mc_32_63_start:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc" 33 12 ]
+        [ "_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_OauthView_mc_32_63_start" "_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_OauthView_mc_32_63_stop" ]
+        %token.1 = local;
+        %tmp.12 = lgetv %data;
+        %tmp.13 = getv %tmp.12 :data;
+        %tmp.14 = "token";
+        %tmp.15 = agetv %tmp.13 %tmp.14;
+        lputv %token.1 %tmp.15;
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc" 34 12 ]
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_OauthView_mc_34_12_if_stmt:
+        %tmp.17 = lgetv %token.1;
+        %tmp.18 = null;
+        %tmp.19 = ne %tmp.17 %tmp.18;
+        bf %tmp.19 @_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_OauthView_mc_34_12_if_end;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_OauthView_mc_34_12_if_true:
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_OauthView_mc_34_31_start:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc" 35 16 ]
+        %tmp.20 = getm $.Toybox.Application;
+        %tmp.21 = getv function %tmp.20 :getApp;
+        %tmp.22 = invoke %tmp.20 %tmp.21();
+        %tmp.23 = getv function %tmp.22 :setProperty;
+        %tmp.25 = getv ? :Properties;
+        %tmp.26 = getv %tmp.25 :AUTHENTICATION_TOKEN;
+        %tmp.28 = lgetv %token.1;
+        %tmp.29 = as %tmp.28 { (!Null) };
+        invoke %tmp.22 %tmp.23(%tmp.26, %tmp.29);
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc" 36 16 ]
+        %tmp.30 = getm $.Toybox.WatchUi;
+        %tmp.31 = getv function %tmp.30 :popView;
+        %tmp.32 = getm $.Toybox.WatchUi;
+        %tmp.33 = getv %tmp.32 :SLIDE_IMMEDIATE;
+        invoke %tmp.30 %tmp.31(%tmp.33);
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_OauthView_mc_34_31_stop:
+        goto @_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_OauthView_mc_34_12_if_end;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_OauthView_mc_34_12_if_end:
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_OauthView_mc_32_63_stop:
+        goto @_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_OauthView_mc_32_8_if_end;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_OauthView_mc_32_8_if_false:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc" 38 15 ]
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_OauthView_mc_38_15_if_stmt:
+        %tmp.34 = lgetv %data;
+        %tmp.35 = getv %tmp.34 :data;
+        %tmp.36 = null;
+        %tmp.37 = ne %tmp.35 %tmp.36;
+        bf %tmp.37 @_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_OauthView_mc_38_15_if_false;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_OauthView_mc_38_15_if_true:
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_OauthView_mc_38_38_start:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc" 39 12 ]
+        [ "_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_OauthView_mc_38_38_start" "_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_OauthView_mc_38_38_stop" ]
+        %message.2 = local;
+        %tmp.38 = "Unable to get token:\n";
+        %tmp.39 = lgetv %data;
+        %tmp.40 = getv %tmp.39 :data;
+        %tmp.41 = "errorMessage";
+        %tmp.42 = agetv %tmp.40 %tmp.41;
+        %tmp.43 = add %tmp.38 %tmp.42;
+        lputv %message.2 %tmp.43;
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc" 40 12 ]
+        %tmp.44 = getm $.Toybox.WatchUi;
+        %tmp.45 = getv function %tmp.44 :switchToView;
+        %tmp.49 = getv ? :ErrorView;
+        %tmp.51 = lgetv %message.2;
+        %tmp.46 = newc %tmp.49 (%tmp.51);
+        %tmp.52 = null;
+        %tmp.53 = getm $.Toybox.WatchUi;
+        %tmp.54 = getv %tmp.53 :SLIDE_IMMEDIATE;
+        invoke %tmp.44 %tmp.45(%tmp.46, %tmp.52, %tmp.54);
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_OauthView_mc_38_38_stop:
+        goto @_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_OauthView_mc_38_15_if_end;
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_OauthView_mc_38_15_if_false:
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_OauthView_mc_41_15_start:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc" 42 12 ]
+        [ "_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_OauthView_mc_41_15_start" "_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_OauthView_mc_41_15_stop" ]
+        %message.3 = local;
+        %tmp.55 = "Unable to get token:\nUnknown error";
+        lputv %message.3 %tmp.55;
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc" 43 12 ]
+        %tmp.56 = getm $.Toybox.WatchUi;
+        %tmp.57 = getv function %tmp.56 :switchToView;
+        %tmp.61 = getv ? :ErrorView;
+        %tmp.63 = lgetv %message.3;
+        %tmp.58 = newc %tmp.61 (%tmp.63);
+        %tmp.64 = null;
+        %tmp.65 = getm $.Toybox.WatchUi;
+        %tmp.66 = getv %tmp.65 :SLIDE_IMMEDIATE;
+        invoke %tmp.56 %tmp.57(%tmp.58, %tmp.64, %tmp.66);
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_OauthView_mc_41_15_stop:
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_OauthView_mc_38_15_if_end:
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_OauthView_mc_32_8_if_end:
+[ "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc" 46 8 ]
+        %tmp.68 = getv ? :Communications;
+        %tmp.69 = getv function %tmp.68 :registerForOAuthMessages;
+        %tmp.70 = null;
+        invoke %tmp.68 %tmp.69(%tmp.70);
+_srv_garmin_connectiq_apps_audio_provider_monkeymusic_source_OauthView_mc_30_35_stop:
+    }
+}
+[ @file = "/srv/garmin/connectiq-apps/audio-provider/monkeymusic/source/OauthView.mc"; @line = 1; ]
+<init> {
+}
